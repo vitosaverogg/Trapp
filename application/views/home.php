@@ -27,7 +27,7 @@
 <body background="<?php echo base_url(); ?>assets/images/sunset.jpg">
     <!--Start Header-->
     <header id="header">
-        <!--Header atas
+        <!--Header atas-->
         <div id="top-bar">
             <div class="container">
                 <div class="row">
@@ -36,12 +36,17 @@
                             <h1><a href="index.html"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Everest"/></a></h1>
                         </div>
                     </div>
+					<div class="col-sm-9">
+						<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>
+					</div>
                 </div>
             </div>
         </div>
-        -->
-        <div class="pixel-header">
-        </div>
+        
+  
         <!-- Navigation
         ================================================== -->
         <!-- <div class="navbar navbar-default navbar-static-top container" role="navigation"> -->

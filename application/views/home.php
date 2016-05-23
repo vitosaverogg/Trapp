@@ -135,12 +135,12 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="radio control-label col-md-3 col-sm-3 col-xs-12">
+                                        <div class="radio-inline control-label col-md-3 col-sm-3 col-xs-12">
                                             <label>
                                                 <input type="radio" checked="" value="option1 " id="optionsRadios1 " name="optionsRadios "> Custom
                                             </label>
                                         </div>
-                                        <div class="radio control-label col-md-3 col-sm-3 col-xs-12">
+                                        <div class="radio-inline control-label col-md-3 col-sm-3 col-xs-12">
                                             <label>
                                                 <input type="radio" value="option2" id="optionsRadios2 " name="optionsRadios "> Paket
                                             </label>

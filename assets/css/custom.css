@@ -4,6 +4,10 @@
   z-index: 9999;
   position: absolute;
 }
+
+.rad{
+  display: inline-block;
+}
 .nav-sm .container.body .col-md-3.left_col.menu_fixed {
   position: fixed;
   height: 100%;
@@ -2248,7 +2252,7 @@ input.parsley-error, textarea.parsley-error, select.parsley-error {
 .btn {
   border-radius: 3px;
 }
-a.btn-success, a.btn-primary, a.btn-warning, a.btn-danger {
+a.btn-success, a.btn-primary, a.btn-warning, a.btn-danger ,a.btn-add, a.btn-next{
   color: #fff;
 }
 .btn-success {

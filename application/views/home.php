@@ -35,18 +35,6 @@
                             <h1><a href="index.html"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Everest"/></a></h1>
                         </div>
                     </div>
-                    <div class="col-sm-9 top-info">
-                        <ul>
-                            <li><a href="" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a></li>
-                            <li><a href="" class="my-pint"><i class="fa fa-pinterest"></i></a></li>
-                            <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a></li>
-                            <li><a href="" class="my-google"><i class="fa fa-google-plus"></i></a></li>
-                        </ul>
-                        <span class="hidden-xs"><i class="fa fa-phone"></i>Phone: (123) 456-7890</span>
-                        <span class="hidden-xs"><i class="fa fa-envelope"></i>Email: mail@example.com</span>
-                    </div>
                 </div>
             </div>
         </div>

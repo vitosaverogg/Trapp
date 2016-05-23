@@ -48,7 +48,7 @@
                             <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a></li>
                             <li><a href="" class="my-google"><i class="fa fa-google-plus"></i></a></li>
                         </ul>
-                        <span class="hidden-xs"><i class="fa fa-phone"></i>Phone: (123) 456-7890</span>
+                        <span class="hidden-xs"><a><i class="fa fa-sign-in"></i>Login</a></span>
                         <span class="hidden-xs"><i class="fa fa-envelope"></i>Email: mail@example.com</span>
                     </div>
                 </div>

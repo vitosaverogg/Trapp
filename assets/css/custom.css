@@ -851,6 +851,7 @@ h2 {
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  color: #000000;
 }
 .x_title h2 small {
   margin-left: 10px;

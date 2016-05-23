@@ -90,76 +90,76 @@
                           <div class="x_title">
                             <h2>Form Wizards <small>Sessions</small></h2>
                             
-                      <div class="clearfix"></div>
-                  </div>
-                  <div class="x_content">
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="x_content">
 
 
-                    <!-- Smart Wizard -->
-                    <p>This is a basic form wizard example that inherits the colors from the selected scheme.</p>
-                    <div id="wizard" class="form_wizard wizard_horizontal">
-                      <ul class="wizard_steps">
-                        <li>
-                          <a href="#step-1">
-                            <span class="step_no">1</span>
+                            <!-- Smart Wizard -->
+                            <p>This is a basic form wizard example that inherits the colors from the selected scheme.</p>
+                            <div id="wizard" class="form_wizard wizard_horizontal">
+                              <ul class="wizard_steps">
+                                <li>
+                                  <a href="#step-1">
+                                    <span class="step_no">1</span>
+                                    <span class="step_descr">
+                                      Step 1<br />
+                                      <small>Step 1 description</small>
+                                  </span>
+                              </a>
+                          </li>
+                          <li>
+                              <a href="#step-2">
+                                <span class="step_no">2</span>
+                                <span class="step_descr">
+                                  Step 2<br />
+                                  <small>Step 2 description</small>
+                              </span>
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#step-3">
+                            <span class="step_no">3</span>
                             <span class="step_descr">
-                              Step 1<br />
-                              <small>Step 1 description</small>
+                              Step 3<br />
+                              <small>Step 3 description</small>
                           </span>
                       </a>
                   </li>
                   <li>
-                      <a href="#step-2">
-                        <span class="step_no">2</span>
+                      <a href="#step-4">
+                        <span class="step_no">4</span>
                         <span class="step_descr">
-                          Step 2<br />
-                          <small>Step 2 description</small>
+                          Step 4<br />
+                          <small>Step 4 description</small>
                       </span>
                   </a>
               </li>
-              <li>
-                  <a href="#step-3">
-                    <span class="step_no">3</span>
-                    <span class="step_descr">
-                      Step 3<br />
-                      <small>Step 3 description</small>
-                  </span>
-              </a>
-          </li>
-          <li>
-              <a href="#step-4">
-                <span class="step_no">4</span>
-                <span class="step_descr">
-                  Step 4<br />
-                  <small>Step 4 description</small>
-              </span>
-          </a>
-      </li>
-  </ul>
-  <div id="step-1">
-    <form class="form-horizontal form-label-left">
+          </ul>
+          <div id="step-1">
+            <form class="form-horizontal form-label-left">
 
+              <div class="form-group">
+                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">First Name <span class="required">*</span>
+                </label>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                  <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Last Name <span class="required">*</span>
+            </label>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
+          </div>
+      </div>
       <div class="form-group">
-        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">First Name <span class="required">*</span>
-        </label>
+        <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Middle Name / Initial</label>
         <div class="col-md-6 col-sm-6 col-xs-12">
-          <input type="text" id="first-name" required="required" class="form-control col-md-7 col-xs-12">
+          <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
       </div>
   </div>
   <div class="form-group">
-    <label class="control-label col-md-3 col-sm-3 col-xs-12" for="last-name">Last Name <span class="required">*</span>
-    </label>
-    <div class="col-md-6 col-sm-6 col-xs-12">
-      <input type="text" id="last-name" name="last-name" required="required" class="form-control col-md-7 col-xs-12">
-  </div>
-</div>
-<div class="form-group">
-    <label for="middle-name" class="control-label col-md-3 col-sm-3 col-xs-12">Middle Name / Initial</label>
-    <div class="col-md-6 col-sm-6 col-xs-12">
-      <input id="middle-name" class="form-control col-md-7 col-xs-12" type="text" name="middle-name">
-  </div>
-</div>
-<div class="form-group">
     <label class="control-label col-md-3 col-sm-3 col-xs-12">Gender</label>
     <div class="col-md-6 col-sm-6 col-xs-12">
       <div id="gender" class="btn-group" data-toggle="buttons">

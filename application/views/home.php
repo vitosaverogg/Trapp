@@ -27,6 +27,7 @@
 <body background="<?php echo base_url(); ?>assets/images/sunset.jpg">
     <!--Start Header-->
     <header id="header">
+        <!--Header atas
         <div id="top-bar">
             <div class="container">
                 <div class="row">
@@ -38,6 +39,7 @@
                 </div>
             </div>
         </div>
+        -->
         <div class="pixel-header">
         </div>
         <!-- Navigation

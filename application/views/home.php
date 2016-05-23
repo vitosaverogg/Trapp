@@ -156,6 +156,7 @@
                             <div class="widget widget_categories ">
                             </div>
                         </div>
+						<!-- apapun -->
                     </div>
                     <!-- end your trip planner -->
                 </div>

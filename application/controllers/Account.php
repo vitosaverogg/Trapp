@@ -19,6 +19,17 @@ class Account extends CI_Controller {
 		$this->load->view('home', $data, FALSE);
 	}
 
+	public function home2(){
+		$array = array(
+			'view' => 'home2'
+		);
+		
+		$this->session->set_userdata( $array );
+		// not login
+		$data = $this->setNavbar("_navbar_not_login");
+		$this->load->view('home2', $data, FALSE);
+	}
+
 	public function sign_up(){
 		$this->session->view = "sign-up";
 		// not login

@@ -53,9 +53,10 @@ $route['default_controller'] = 'account';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+// Account
 $route['sign_up'] = 'account/sign_up';
 $route['sign_in'] = 'account/sign_in';
 $route['auth'] = 'account/auth';
 $route['sign_out'] = 'account/sign_out';
-
+$route['home2'] = 'account/home2';
 $route['form_wizard'] = "planner";

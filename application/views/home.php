@@ -98,7 +98,6 @@
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Budget</label>
                                             <div class="col-md-9 col-sm-9 col-xs-12">
-                                                <input type="text" name="country" id="autocomplete-custom-append" class="form-control col-md-10" style="float: left;" />
                                             </div>
                                         </div>
                                         <div class="form-group">

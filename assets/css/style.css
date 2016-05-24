@@ -132,11 +132,11 @@ a:focus{
     margin:0 auto 20px;
 }
 
-a span {
+.navbar_account {
     color: #ffffff;
 }
 
-a span:hover{
+.navbar_account:hover{
     color: #fbd568;
 }
 /* =================================================================== */

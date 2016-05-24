@@ -16,10 +16,8 @@
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css" media="screen" data-name="skins">
     <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/layout/wide.css" data-name="layout">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/switcher.css" media="screen" />
-
     <!-- Custom Theme Style -->
     <link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -29,17 +27,14 @@
 </head>
 
 <body background="<?php echo base_url(); ?>assets/images/sunset.jpg">
-
     <!--Start Header-->
     <?php 
         $this->load->view('header', $navbar, FALSE);
      ?>
-
     </header>
     <!--End Header-->
     <!--start wrapper-->
     <section class="wrapper">
-         
         <section class="content right_sidebar">
             <div class="container">
                 <div class="row">
@@ -60,7 +55,6 @@
                             </figure>
                         </div>
                     </div>
-
                     <!--your trip planner-->
                     <div class="col-lg-4 col-md-4 col-sm-4">
                         <div class="sidebar">
@@ -92,14 +86,6 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Budget</label>
-                                            <div class="col-md-9 col-sm-9 col-xs-12">
-                                                <input type="text" name="country" id="autocomplete-custom-append" class="form-control col-md-10" style="float: left;" />
-                                                <div id="autocomplete-container" style="position: relative; float: left; width: 400px; margin: 10px;">
-                                                </div>
-                                            </div>
-                                        </div>
                                         <!-- daterangepicker -->
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</label>
@@ -109,20 +95,28 @@
                                                 <span id="inputSuccess2Status4" class="sr-only">(success)</span>
                                             </div>
                                         </div>
-
-                                        <div class="radio-inline control-label col-md-3 col-sm-3 col-xs-12">
-                                            <label>
-                                                <input type="radio" checked="" value="option1 " id="optionsRadios1 " name="optionsRadios "> Custom
-                                            </label>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Budget</label>
+                                            <div class="col-md-9 col-sm-9 col-xs-12">
+                                                <input type="text" name="country" id="autocomplete-custom-append" class="form-control col-md-10" style="float: left;" />
+                                            </div>
                                         </div>
-                                        <div class="radio-inline control-label col-md-3 col-sm-3 col-xs-12">
-                                            <label>
-                                                <input type="radio" value="option2" id="optionsRadios2 " name="optionsRadios "> Paket
-                                            </label>
+                                        <div class="form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Pilihan</label>
+                                            <div class="control-label col-md-4 col-sm-4 col-xs-12">
+                                                <label>
+                                                    <input type="radio" checked="" value="option1 " id="optionsRadios1 " name="optionsRadios "> Custom
+                                                </label>
+                                            </div>
+                                            <div class="control-label col-md-4 col-sm-4 col-xs-12">
+                                                <label>
+                                                    <input type="radio" value="option2" id="optionsRadios2 " name="optionsRadios "> Paket
+                                                </label>
+                                            </div>
                                         </div>
                                         <p class="clearfix">
                                             <button type="submit" class="log-twitter">Submit</button>
-                                            <input type="submit" name="submit" value="Log in ">
+                                            <input type="submit" name="submit" value="Beli Tiket">
                                         </p>
                                     </form>​​
                                 </div>

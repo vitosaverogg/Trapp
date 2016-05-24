@@ -2,35 +2,30 @@
 
 class Account extends CI_Controller {
 
+	public $view;
+
 	public function __construct()
 	{
 		parent::__construct();
+		$this->view = "home";
 	}
 
 	public function index()
 	{
-		// meyimpan view ke dalam session
-		$array = array(
-			'view' => 'home'
-		);
-		$this->session->set_userdata( $array );
-		
 		// not login
 		$data = $this->setNavbar("_navbar_not_login");
 		$this->load->view('home', $data, FALSE);
 	}
 
 	public function sign_up(){
-		// mengganti view
-		$this->session->view = "sign-up";
+		$this->view = "sign-up";
 		// not login
 		$data = $this->setNavbar("_navbar_empty");
 		$this->load->view('sign_up', $data, FALSE);
 	}
 
 	public function sign_in(){
-		// mengganti view
-		$this->session->view = "sign_in";
+		$this->view = "sign_in";
 		// not login
 		$data = $this->setNavbar("_navbar_empty");
 		$this->load->view('sign_in', $data, FALSE);
@@ -39,7 +34,7 @@ class Account extends CI_Controller {
 	public function auth(){
 		//login
 		$data = $this->setNavbar("_navbar_login");
-		$this->load->view($this->session->view, $data, FALSE);
+		$this->load->view($this->view, $data, FALSE);
 	}
 
 	public function sign_out(){

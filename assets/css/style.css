@@ -132,13 +132,6 @@ a:focus{
     margin:0 auto 20px;
 }
 
-a span {
-    color: #ffffff;
-}
-
-a span:hover{
-    color: #fbd568;
-}
 /* =================================================================== */
 /* 2. HEADER
 ====================================================================== */
@@ -146,7 +139,7 @@ a span:hover{
     100%; transition: all 0.4s ease-in-out 0s;
 }
 
-#top-bar{background: #323A45; color: #fff; padding: 5px 0 3px; height: 35px;}
+#top-bar{background: #323A45; color: #fff; padding: 5px 0 3px;}
 
 .top-info ul{ list-style: none; float: right; padding:0; margin: 0;}
 

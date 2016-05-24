@@ -39,9 +39,38 @@
 <body>
 
     <!--Start Header-->
+<<<<<<< HEAD
     <?php 
         $this->load->view('header', $navbar, FALSE);
      ?>
+=======
+    <header id="header">
+        <div id="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div id="logo">
+                            <h1><a href="index.html"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Everest"/></a></h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 top-info">
+                        <ul>
+                            <li><a href="" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a></li>
+                            <li><a href="" class="my-pint"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="" class="my-google"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                        <span class="hidden-xs"><a><i class="fa fa-sign-in"></i>Login</a></span>
+                        <span class="hidden-xs"><i class="fa fa-envelope"></i>Email: mail@example.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pixel-header">
+        </div>
+>>>>>>> parent of 6ac4ccd... Penambahan class pada controller dan memisahkan navbar dari main page.
         <!-- Navigation
         ================================================== -->
         <!-- <div class="navbar navbar-default navbar-static-top container" role="navigation"> -->
@@ -62,7 +91,10 @@
         <!--/.container -->
         <!-- </div> -->
     </header>
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of 6ac4ccd... Penambahan class pada controller dan memisahkan navbar dari main page.
     <!--End Header-->
     <!--start wrapper-->
     <section class="wrapper">

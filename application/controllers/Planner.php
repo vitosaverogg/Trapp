@@ -5,10 +5,13 @@ class Planner extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
+
+
 	}
 
 	public function index()
 	{
+		$this->session->view = "form_wizard";
 		// not login
 		$navbar = array('navbar' => "_navbar_not_login", );
 		$data = array('navbar' => $navbar, );

@@ -9,7 +9,7 @@
                 </div>
                  
                 <?php 
-                        $this->load->view($navbar);
+                    $this->load->view($navbar);
                 ?>
             </div>
         </div>

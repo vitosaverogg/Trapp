@@ -26,26 +26,61 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/style1.css" />
+        <script type="text/javascript" src="<?php echo base_url();?>assets/js/modernizr.custom.86080.js"></script>
+
+
+
+
 </head>
 
-<body background="<?php echo base_url(); ?>assets/images/sunset.jpg">
+<body>
 
     <!--Start Header-->
     <?php 
         $this->load->view('header', $navbar, FALSE);
      ?>
-
+        <!-- Navigation
+        ================================================== -->
+        <!-- <div class="navbar navbar-default navbar-static-top container" role="navigation"> -->
+        <!--  <div class="container">-->
+        <!--  <div class="row">
+                <span class="nav-caption">Navigation Menu...</span>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            </div> -->
+        <!--/.row -->
+        <!--</div>-->
+        <!--/.container -->
+        <!-- </div> -->
     </header>
+
     <!--End Header-->
     <!--start wrapper-->
     <section class="wrapper">
-         
+         <ul class="cb-slideshow">
+            <li><span>Image 01</span><div></div></li>
+            <li><span>Image 02</span><div></div></li>
+            <li><span>Image 03</span><div></div></li>
+            <li><span>Image 04</span><div></div></li>
+            <li><span>Image 05</span><div></div></li>
+            <li><span>Image 06</span><div></div></li>               
+        </ul>
         <section class="content right_sidebar">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                         <div class="blog_large">
                             <figure class="post_img">
+                                <!-- Post Image Slider 
                                 <div id="slider" class="swipe">
                                     <ul class="swipe-wrap">
                                         <li><img src="<?php echo base_url(); ?>assets/images/blog/blog_2.png" alt="blog post"></li>
@@ -56,7 +91,7 @@
                                         <div class="swipe-left" onclick="mySwipe.prev()"><i class="fa fa-chevron-left"></i></div>
                                         <div class="swipe-right" onclick="mySwipe.next()"><i class="fa fa-chevron-right"></i></div>
                                     </div>
-                                </div>
+                                </div>-->
                             </figure>
                         </div>
                     </div>

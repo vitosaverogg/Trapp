@@ -26,23 +26,83 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/css/style1.css" />
+        <script type="text/javascript" src="<?php echo base_url();?>assets/js/modernizr.custom.86080.js"></script>
+
+
+
+
 </head>
 
-<body background="<?php echo base_url(); ?>assets/images/sunset.jpg">
+<body>
+
     <!--Start Header-->
-    <?php 
-        $this->load->view('header',$navbar);
-     ?>
+    <header id="header">
+        <div id="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div id="logo">
+                            <h1><a href="index.html"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Everest"/></a></h1>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 top-info">
+                        <ul>
+                            <li><a href="" class="my-tweet"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="" class="my-facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="" class="my-skype"><i class="fa fa-skype"></i></a></li>
+                            <li><a href="" class="my-pint"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="" class="my-rss"><i class="fa fa-rss"></i></a></li>
+                            <li><a href="" class="my-google"><i class="fa fa-google-plus"></i></a></li>
+                        </ul>
+                        <span class="hidden-xs"><a><i class="fa fa-sign-in"></i>Login</a></span>
+                        <span class="hidden-xs"><i class="fa fa-envelope"></i>Email: mail@example.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pixel-header">
+        </div>  
+        <!-- Navigation
+        ================================================== -->
+        <!-- <div class="navbar navbar-default navbar-static-top container" role="navigation"> -->
+        <!--  <div class="container">-->
+        <!--  <div class="row">
+                <span class="nav-caption">Navigation Menu...</span>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            </div> -->
+        <!--/.row -->
+        <!--</div>-->
+        <!--/.container -->
+        <!-- </div> -->
+    </header>
+
     <!--End Header-->
     <!--start wrapper-->
     <section class="wrapper">
+         <ul class="cb-slideshow">
+            <li><span>Image 01</span><div></div></li>
+            <li><span>Image 02</span><div></div></li>
+            <li><span>Image 03</span><div></div></li>
+            <li><span>Image 04</span><div></h3></div></li>
+                            
+        </ul>
         <section class="content right_sidebar">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                         <div class="blog_large">
                             <figure class="post_img">
-                                <!-- Post Image Slider -->
+                                <!-- Post Image Slider 
                                 <div id="slider" class="swipe">
                                     <ul class="swipe-wrap">
                                         <li><img src="<?php echo base_url(); ?>assets/images/blog/blog_2.png" alt="blog post"></li>
@@ -53,10 +113,11 @@
                                         <div class="swipe-left" onclick="mySwipe.prev()"><i class="fa fa-chevron-left"></i></div>
                                         <div class="swipe-right" onclick="mySwipe.next()"><i class="fa fa-chevron-right"></i></div>
                                     </div>
-                                </div>
+                                </div>-->
                             </figure>
                         </div>
                     </div>
+
                     <!--your trip planner-->
                     <div class="col-lg-4 col-md-4 col-sm-4">
                         <div class="sidebar">
@@ -118,7 +179,7 @@
                                         </div>
                                         <p class="clearfix">
                                             <button type="submit" class="log-twitter">Submit</button>
-                                            <input type="submit" name="submit" value="Only Ticket">
+                                            <input type="submit" name="submit" value="Log in ">
                                         </p>
                                     </form>​​
                                 </div>

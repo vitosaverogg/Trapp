@@ -62,8 +62,9 @@
                                 <div class="site-search-area">
                                     <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard">
                                         <h1><span class="log-in">your</span> TRIP <span class="sign-up">plan</span></h1>
+                                        <!-- asal -->
                                         <div class="form-group">
-                                            <label class="label col-md-3 col-sm-3 col-xs-12">Asal</label>
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Asal</label>
                                             <div class="col-md-9 col-sm-9 col-xs-12">
                                                 <select class="form-control">
                                                     <option>Choose option</option>
@@ -74,6 +75,8 @@
                                                 </select>
                                             </div>
                                         </div>
+                                        <!-- end asal -->
+                                        <!-- tujuan -->
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</label>
                                             <div class="col-md-9 col-sm-9 col-xs-12">
@@ -86,15 +89,18 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <!-- daterangepicker -->
+                                        <!-- end tujuan -->
+                                        <!-- tanggal -->
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</label>
                                             <div class="col-md-9 col-sm-9 col-xs-12">
-                                                <input style="padding-left: 45px;" type="text" class="form-control has-feedback-left" id="single_cal4" placeholder="DD/MM/YYYY" aria-describedby="inputSuccess2Status4">
+                                                <input style="padding-left: 40px;" type="text" class="form-control has-feedback-left" id="single_cal4" placeholder="DD/MM/YYYY" aria-describedby="inputSuccess2Status4">
                                                 <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
                                                 <span id="inputSuccess2Status4" class="sr-only">(success)</span>
                                             </div>
                                         </div>
+                                        <!-- end tanggal -->
+                                        <!-- budget -->
                                         <div class="form-group">
                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Budget</label>
                                             <div class="col-md-9 col-sm-9 col-xs-12">
@@ -114,10 +120,13 @@
                                                 </label>
                                             </div>
                                         </div>
+                                        <!-- end budget -->
+                                        <!-- tombol -->
                                         <p class="clearfix">
                                             <button type="submit" class="log-twitter">Submit</button>
                                             <input type="submit" name="submit" value="Beli Tiket">
                                         </p>
+                                        <!-- end tombol -->
                                     </form>​​
                                 </div>
                                 <!-- end site search -->
@@ -322,7 +331,7 @@
             startDate: moment().subtract(29, 'days'),
             endDate: moment(),
             minDate: '01/01/2012',
-            maxDate: '12/31/2015',
+            maxDate: '12/31/2025',
             dateLimit: {
                 days: 60
             },

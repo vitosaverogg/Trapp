@@ -36,11 +36,7 @@
      33. BUTTON UP
      34. MEDIA QUERIES
 */
-/* Menghilangkan Spinner form type number*/
-    input[type=number]::-webkit-inner-spin-button, 
-    input[type=number]::-webkit-outer-spin-button { 
-      -webkit-appearance: none; 
-      margin: 0;
+
 /* =================================================================== */
 /* Import Section
 ====================================================================== */
@@ -58,7 +54,11 @@ body, h1, h2, h3, h4, h5, h6, .button, input[type="button"], input[type="submit"
     line-height:20px;
     color:#73879C;
 }
- 
+ /* Menghilangkan Spinner form type number*/
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0;
 }
 h1 {
     font-size: 28px;
@@ -144,6 +144,7 @@ a:focus{
 .navbar_account:hover{
     color: #fbd568;
 }
+
 /* =================================================================== */
 /* 2. HEADER
 ====================================================================== */

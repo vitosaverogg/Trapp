@@ -63,7 +63,7 @@
                                     <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard">
                                         <h1><span class="log-in">your</span> TRIP <span class="sign-up">plan</span></h1>
                                         <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Asal</label>
+                                            <label class="label col-md-3 col-sm-3 col-xs-12">Asal</label>
                                             <div class="col-md-9 col-sm-9 col-xs-12">
                                                 <select class="form-control">
                                                     <option>Choose option</option>
@@ -196,10 +196,10 @@
     <section class="footer_bottom ">
         <div class="container ">
             <div class="row ">
-                <div class="col-sm-6 ">
+                <div class="col-sm-6 col-md-6 col-lg-6 ">
                     <p class="copyright ">&copy; Copyright 2015 Everest | Powered by <a href="http://www.jqueryrain.com/ ">jQuery Rain</a></p>
                 </div>
-                <div class="col-sm-6 ">
+                <div class="col-sm-6 col-md-6 col-lg-6 ">
                     <div class="footer_social ">
                         <ul class="footbot_social ">
                             <li><a class="fb " href="#. " data-placement="top " data-toggle="tooltip " title="Facebook "><i class="fa fa-facebook "></i></a></li>

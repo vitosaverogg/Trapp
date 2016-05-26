@@ -58,83 +58,76 @@
                     <!--your trip planner-->
                     <div class="col-lg-4 col-md-4 col-sm-4">
                         <div class="sidebar">
-                            <div class="widget widget_search">
-                                <div class="site-search-area">
-                                    <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard">
-                                        <h1><span class="log-in">your</span> TRIP <span class="sign-up">plan</span></h1>
-                                        <!-- asal -->
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Asal</label>
-                                            <div class="col-md-9 col-sm-9 col-xs-12">
-                                                <select class="form-control">
-                                                    <option>Choose option</option>
-                                                    <option>Option one</option>
-                                                    <option>Option two</option>
-                                                    <option>Option three</option>
-                                                    <option>Option four</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <!-- end asal -->
-                                        <!-- tujuan -->
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</label>
-                                            <div class="col-md-9 col-sm-9 col-xs-12">
-                                                <select class="form-control">
-                                                    <option>Choose option</option>
-                                                    <option>Option one</option>
-                                                    <option>Option two</option>
-                                                    <option>Option three</option>
-                                                    <option>Option four</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <!-- end tujuan -->
-                                        <!-- tanggal -->
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</label>
-                                            <div class="col-md-9 col-sm-9 col-xs-12">
-                                                <input style="padding-left: 40px;" type="text" class="form-control has-feedback-left" id="single_cal4" placeholder="DD/MM/YYYY" aria-describedby="inputSuccess2Status4">
-                                                <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
-                                                <span id="inputSuccess2Status4" class="sr-only">(success)</span>
-                                            </div>
-                                        </div>
-                                        <!-- end tanggal -->
-                                        <!-- budget -->
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Budget</label>
-                                            <div class="col-md-9 col-sm-9 col-xs-12">
-                                                <input type="number" name="money" id="autocomplete-custom-append" placeholder="ex Rp 50.000" class="form-control col-md-10" style="float: left;" />
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Pilihan</label>
-                                            <div class="control-label col-md-4 col-sm-4 col-xs-12">
-                                                <label>
-                                                    <input type="radio" checked="" value="option1 " id="optionsRadios1 " name="optionsRadios "> Custom
-                                                </label>
-                                            </div>
-                                            <div class="control-label col-md-4 col-sm-4 col-xs-12">
-                                                <label>
-                                                    <input type="radio" value="option2" id="optionsRadios2 " name="optionsRadios "> Paket
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <!-- end budget -->
-                                        <!-- tombol -->
-                                        <p class="clearfix">
-                                            <button type="submit" class="log-twitter">Submit</button>
-                                            <input type="submit" name="submit" value="Beli Tiket">
-                                        </p>
-                                        <!-- end tombol -->
-                                    </form>​​
+                            <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard">
+                                <h1><span class="log-in">your</span> TRIP <span class="sign-up">plan</span></h1>
+                                <!-- asal -->
+                                <div class="form-group">
+                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Asal</label>
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                        <select class="form-control">
+                                            <option>Choose option</option>
+                                            <option>Option one</option>
+                                            <option>Option two</option>
+                                            <option>Option three</option>
+                                            <option>Option four</option>
+                                        </select>
+                                    </div>
                                 </div>
-                                <!-- end site search -->
-                            </div>
-                            <div class="widget widget_categories ">
-                            </div>
+                                <!-- end asal -->
+                                <!-- tujuan -->
+                                <div class="form-group">
+                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</label>
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                        <select class="form-control">
+                                            <option>Choose option</option>
+                                            <option>Option one</option>
+                                            <option>Option two</option>
+                                            <option>Option three</option>
+                                            <option>Option four</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <!-- end tujuan -->
+                                <!-- tanggal -->
+                                <div class="form-group">
+                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</label>
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                        <input style="padding-left: 40px;" type="text" class="form-control has-feedback-left" id="single_cal4" placeholder="DD/MM/YYYY" aria-describedby="inputSuccess2Status4">
+                                        <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                        <span id="inputSuccess2Status4" class="sr-only">(success)</span>
+                                    </div>
+                                </div>
+                                <!-- end tanggal -->
+                                <!-- budget -->
+                                <div class="form-group">
+                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Budget</label>
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+                                        <input type="number" name="money" id="autocomplete-custom-append" placeholder="ex Rp 50.000" class="form-control col-md-10" style="float: left;" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Pilihan</label>
+                                    <div class="control-label col-md-4 col-sm-4 col-xs-12">
+                                        <label>
+                                            <input type="radio" checked="" value="option1 " id="optionsRadios1 " name="optionsRadios "> Custom
+                                        </label>
+                                    </div>
+                                    <div class="control-label col-md-4 col-sm-4 col-xs-12">
+                                        <label>
+                                            <input type="radio" value="option2" id="optionsRadios2 " name="optionsRadios "> Paket
+                                        </label>
+                                    </div>
+                                </div>
+                                <!-- end budget -->
+                                <!-- tombol -->
+                                <p class="clearfix">
+                                    <button type="submit" class="log-twitter">Submit</button>
+                                    <input type="submit" name="submit" value="Beli Tiket">
+                                </p>
+                                <!-- end tombol -->
+                            </form>​​
                         </div>
-                        <!-- apapun -->
+                        <!-- sidebar -->
                     </div>
                     <!-- end your trip planner -->
                 </div>
@@ -275,7 +268,7 @@
             buttonClasses: ['btn btn-default'],
             applyClass: 'btn-small btn-primary',
             cancelClass: 'btn-small',
-            format: 'MM/DD/YYYY',
+            format: 'DD/MM/YYYY',
             separator: ' to ',
             locale: {
                 applyLabel: 'Submit',
@@ -320,76 +313,7 @@
 
     });
     </script>
-    <script>
-    $(document).ready(function() {
-        var cb = function(start, end, label) {
-            console.log(start.toISOString(), end.toISOString(), label);
-            $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
-        };
-
-        var optionSet1 = {
-            startDate: moment().subtract(29, 'days'),
-            endDate: moment(),
-            minDate: '01/01/2012',
-            maxDate: '12/31/2025',
-            dateLimit: {
-                days: 60
-            },
-            showDropdowns: true,
-            showWeekNumbers: true,
-            timePicker: false,
-            timePickerIncrement: 1,
-            timePicker12Hour: true,
-            ranges: {
-                'Today': [moment(), moment()],
-                'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
-                'Last 7 Days': [moment().subtract(6, 'days'), moment()],
-                'Last 30 Days': [moment().subtract(29, 'days'), moment()],
-                'This Month': [moment().startOf('month'), moment().endOf('month')],
-                'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
-            },
-            opens: 'left',
-            buttonClasses: ['btn btn-default'],
-            applyClass: 'btn-small btn-primary',
-            cancelClass: 'btn-small',
-            format: 'MM/DD/YYYY',
-            separator: ' to ',
-            locale: {
-                applyLabel: 'Submit',
-                cancelLabel: 'Clear',
-                fromLabel: 'From',
-                toLabel: 'To',
-                customRangeLabel: 'Custom',
-                daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
-                monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-                firstDay: 1
-            }
-        };
-        $('#reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
-        $('#reportrange').daterangepicker(optionSet1, cb);
-        $('#reportrange').on('show.daterangepicker', function() {
-            console.log("show event fired");
-        });
-        $('#reportrange').on('hide.daterangepicker', function() {
-            console.log("hide event fired");
-        });
-        $('#reportrange').on('apply.daterangepicker', function(ev, picker) {
-            console.log("apply event fired, start/end dates are " + picker.startDate.format('MMMM D, YYYY') + " to " + picker.endDate.format('MMMM D, YYYY'));
-        });
-        $('#reportrange').on('cancel.daterangepicker', function(ev, picker) {
-            console.log("cancel event fired");
-        });
-        $('#options1').click(function() {
-            $('#reportrange').data('daterangepicker').setOptions(optionSet1, cb);
-        });
-        $('#options2').click(function() {
-            $('#reportrange').data('daterangepicker').setOptions(optionSet2, cb);
-        });
-        $('#destroy').click(function() {
-            $('#reportrange').data('daterangepicker').remove();
-        });
-    });
-    </script>
+    
     <script>
     $(document).ready(function() {
         $('#single_cal1').daterangepicker({
@@ -411,6 +335,7 @@
             console.log(start.toISOString(), end.toISOString(), label);
         });
         $('#single_cal4').daterangepicker({
+            dateFormat: 'DD/MM/YYYY',
             singleDatePicker: true,
             calender_style: "picker_4"
         }, function(start, end, label) {

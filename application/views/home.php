@@ -29,7 +29,7 @@
 <body background="<?php echo base_url(); ?>assets/images/sunset.jpg">
     <!--Start Header-->
     <?php 
-        $this->load->view('header', $navbar, FALSE);
+        $this->load->view('header', FALSE);
      ?>
     </header>
     <!--End Header-->
@@ -122,7 +122,7 @@
                                 <!-- tombol -->
                                 <p class="clearfix">
                                     <button type="submit" class="log-twitter">Submit</button>
-                                    <input type="submit" name="submit" value="Beli Tiket">
+                                    <input type="submit"  value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'">
                                 </p>
                                 <!-- end tombol -->
                             </form>​​

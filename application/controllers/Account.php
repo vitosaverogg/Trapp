@@ -5,18 +5,21 @@ class Account extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-	}
-
-	public function index()
-	{
 		$array = array(
+			'login' => false,
+			'navbar' => '',
 			'view' => 'home'
 		);
 		
 		$this->session->set_userdata( $array );
-		// not login
-		$data = $this->setNavbar("_navbar_not_login");
-		$this->load->view('home', $data, FALSE);
+	}
+
+	public function index()
+	{
+		
+
+		$this->set_navbar_by_login($this->session->login);
+		$this->load->view($this->session->view, FALSE);
 	}
 
 	public function home2(){
@@ -25,41 +28,47 @@ class Account extends CI_Controller {
 		);
 		
 		$this->session->set_userdata( $array );
-		// not login
-		$data = $this->setNavbar("_navbar_not_login");
-		$this->load->view('home2', $data, FALSE);
+
+		$this->set_navbar_by_login($this->session->login);
+		$this->load->view($this->session->view, FALSE);
 	}
 
 	public function sign_up(){
-		$this->session->view = "sign-up";
-		// not login
-		$data = $this->setNavbar("_navbar_empty");
-		$this->load->view('sign_up', $data, FALSE);
+		$this->session->view = "sign_up";
+		
+		$this->session->navbar = "_navbar_empty";
+		$this->load->view($this->session->view, FALSE);
 	}
 
 	public function sign_in(){
-		// not login
-		$data = $this->setNavbar("_navbar_empty");
-		$this->load->view('sign_in', $data, FALSE);
+
+		$this->session->navbar = "_navbar_empty";
+		$this->load->view('sign_in', FALSE);
 	}
 
 	public function auth(){
-		//login
-		$data = $this->setNavbar("_navbar_login");
-		$this->load->view($this->session->view, $data, FALSE);
+		$this->session->login = true;
+		$this->set_navbar_by_login($this->session->login);
+		$this->load->view($this->session->view, FALSE);
 	}
 
 	public function sign_out(){
-		$data = $this->setNavbar("_navbar_not_login");
-		$this->load->view('home', $data, FALSE);
+		$this->session->login = false;
+		$this->set_navbar_by_login($this->session->login);
+		$this->load->view('home', FALSE);
+		$this->session->sess_destroy();
 	}
 
-	public function setNavbar($nav){
-		$navbar = array('navbar' => $nav, );
-		$data = array('navbar' => $navbar, );
-		return $data;
-	}
+	public function set_navbar_by_login($login){
+		if ($login){
+			$nav = "_navbar_login";
+		}else{
+			$nav = "_navbar_not_login";
+		}
 
+		
+		$this->session->navbar = $nav;
+	}
 }
 
 /* End of file Account.php */

@@ -60,3 +60,5 @@ $route['auth'] = 'account/auth';
 $route['sign_out'] = 'account/sign_out';
 $route['home2'] = 'account/home2';
 $route['form_wizard'] = "planner";
+
+$route['transportasi'] = 'planner/transportasi';

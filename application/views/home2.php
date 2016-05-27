@@ -40,7 +40,7 @@
 
     <!--Start Header-->
     <?php 
-        $this->load->view('header', $navbar, FALSE);
+        $this->load->view('header', FALSE);
      ?>
         <!-- Navigation
         ================================================== -->

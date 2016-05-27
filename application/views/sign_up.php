@@ -31,7 +31,7 @@
 <body>
     <!--Start Header-->
     <?php 
-        $this->load->view('header',$navbar);
+        $this->load->view('header');
      ?>
     <!--End Header-->
     <!--start wrapper-->

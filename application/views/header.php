@@ -8,7 +8,7 @@
                     </div>
                 </div>
                 <?php 
-                    $this->load->view($navbar);
+                    $this->load->view($this->session->navbar);
                 ?>
             </div>
         </div>

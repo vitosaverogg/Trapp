@@ -29,7 +29,7 @@
 <body>
     <!--Start Header-->
    <?php 
-   $this->load->view('header', $navbar, FALSE);
+   $this->load->view('header', FALSE);
     ?>
     <!--End Header-->
     <!--start wrapper-->
@@ -97,7 +97,8 @@
                                                     
                                                 </form> -->
                                                 <p class="clearfix text-center">
-                                                    <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Add</button>
+                                                    <!-- <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Add</button> -->
+                                                    <button class="buttonPrevious btn btn-add" onclick="window.location = '<?php echo base_url(); ?>transportasi'">Add</button>
                                                 </p>
                                             </div>
                                             <div id="step-2">

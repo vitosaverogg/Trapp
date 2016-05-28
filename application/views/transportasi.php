@@ -41,25 +41,134 @@
                 <div class="row">
                     <!-- col -->
                     <div class="col-md-12 col-sm-12 col-xs-12">
+                        <!-- x_panel -->
                         <div class="x_panel">
+                            <!-- x_title -->
                             <div class="x_title">
-                                <h2><i class="fa fa-bars"></i> Tabs <small>Float left</small></h2>
+                                <h2><i class="fa fa-bars"></i> Transportasi<small>Float left</small></h2>
                                 <div class="clearfix"></div>
                             </div>
+                            <!-- end x_title -->
+                            <!-- x_content -->
                             <div class="x_content">
+                                <!-- tab panel -->
                                 <div class="" role="tabpanel" data-example-id="togglable-tabs">
                                     <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
-                                        <li role="presentation" class="active"><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Pesawat</a>
+                                        <li role="presentation" class="active"><a href="#pesawat" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Pesawat</a>
                                         </li>
                                         <li role="presentation" class=""><a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Kereta</a>
                                         </li>
                                         <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">dll</a>
                                         </li>
                                     </ul>
+                                    <!-- tab content -->
                                     <div id="myTabContent" class="tab-content">
-                                        <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
-                                            <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terr.</p>
+                                        <!-- content pesawat -->
+                                        <div role="tabpanel" class="tab-pane fade active in" id="pesawat" aria-labelledby="home-tab">
+                                            <!-- tujuan penerbangan -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <!-- x_panel -->
+                                                <div class="x_panel">
+                                                    <!-- x_title -->
+                                                    <div class="x_title">
+                                                        <h2>Tujuan Penerbangan</h2>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <!-- end x_title -->
+                                                    <!-- x_content -->
+                                                    <div class="x_content">
+                                                        <!-- form group -->
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-12 col-sm-12 col-xs-12">Kota Asal</label>
+                                                            <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                                                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Bandung">
+                                                                <span class="fa fa-plane form-control-feedback left" aria-hidden="true"></span>
+                                                            </div>
+                                                        </div>
+                                                        <!-- end from group -->
+                                                        <!-- from group -->
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-12 col-sm-12 col-xs-12">Kota Tujuan</label>
+                                                            <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                                                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Jakarta">
+                                                                <span class="fa fa-plane fa-rotate-90 form-control-feedback left" aria-hidden="true"></span>
+                                                            </div>
+                                                        </div>
+                                                        <!-- end from group -->
+                                                    </div>
+                                                    <!-- end x_content -->
+                                                </div>
+                                            </div>
+                                            <!-- end tujuan penerbangan -->
+                                            <!-- waktu penerbangan -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <!-- x_panel -->
+                                                <div class="x_panel">
+                                                    <!-- x_title -->
+                                                    <div class="x_title">
+                                                        <h2>Tujuan Penerbangan</h2>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <!-- end x_title -->
+                                                    <!-- x_content -->
+                                                    <div class="x_content">
+                                                        <!-- tanggal -->
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-12 col-sm-12 col-xs-12">Tanggal Berangkat</label>
+                                                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                                                <input style="padding-left: 40px;" type="text" class="form-control has-feedback-left" id="single_cal4" placeholder="DD/MM/YYYY" aria-describedby="inputSuccess2Status4">
+                                                                <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                                                <span id="inputSuccess2Status4" class="sr-only">(success)</span>
+                                                            </div>
+                                                        </div>
+                                                        <!-- end tanggal -->
+                                                    </div>
+                                                    <!-- end x_content -->
+                                                </div>
+                                                <!-- end x_panel -->
+                                            </div>
+                                            <!-- end waktu penerbangan -->
+                                            <!-- cari tiket -->
+                                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                                <!-- x_panel -->
+                                                <div class="x_panel">
+                                                    <!-- x_title -->
+                                                    <div class="x_title">
+                                                        <h2>Cari Tiket</h2>
+                                                        <div class="clearfix"></div>
+                                                    </div>
+                                                    <!-- end x_title -->
+                                                    <!-- x_content -->
+                                                    <div class="x_content">
+                                                        <!-- form group -->
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-12 col-sm-12 col-xs-12">Jumlah Penumpang</label>
+                                                            <div class="col-md-4 col-sm-4 col-xs-12 form-group has-feedback">
+                                                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="0">
+                                                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                                                            </div>
+                                                            <div class="col-md-4 col-sm-4 col-xs-12 form-group has-feedback">
+                                                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="0">
+                                                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                                                            </div>
+                                                            <div class="col-md-4 col-sm-4 col-xs-12 form-group has-feedback">
+                                                                <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="0">
+                                                                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                                                            </div>
+                                                        </div>
+                                                        <!-- end from group -->
+                                                        <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                                                            <button class="btn btn-success">Cari Tiket</button>
+                                                        </div>
+                                                    </div>
+                                                    <!-- end x_content -->
+                                                </div>
+                                                <!-- end x_panel -->
+                                            </div>
+                                            <!-- end cari tiket -->
+                                            <div class="clearfix"></div>
                                         </div>
+                                        <!-- end content pesawat -->
                                         <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
                                             <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip</p>
                                         </div>
@@ -67,9 +176,13 @@
                                             <p>xxFood truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk </p>
                                         </div>
                                     </div>
+                                    <!-- end tab content -->
                                 </div>
+                                <!-- end tab panel -->
                             </div>
+                            <!-- end x_content -->
                         </div>
+                        <!-- end x_panel -->
                     </div>
                     <!-- end col -->
                 </div>
@@ -122,6 +235,9 @@
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/swipe.js"></script>
     <!---->
     <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
+    <?php 
+        $this->load->view('script/date_picker');
+     ?>
 </body>
 
 </html>

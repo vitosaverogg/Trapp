@@ -1,4 +1,18 @@
+.fa-rotate-45 {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
 
+.fa-rotate-90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
 /* *********  custom accordion  **************************** */
 
 *,
@@ -1605,10 +1619,17 @@ legend {
     left: 13px;
 }
 
+.form-control-feedback.left.top {
+    border-top: 1px solid #ccc;
+    left: 13px;
+}
+
 .form-control-feedback.right {
     border-left: 1px solid #ccc;
     right: 13px;
 }
+
+
 
 .form-control.has-feedback-left {
     padding-left: 45px;

@@ -138,7 +138,7 @@
     </section>
     <!--end wrapper-->
     <!--start footer-->
-    <footer class="footer ">
+    <footer class="footer">
         <div class="container ">
             <div class="row sub_content ">
                 <div class="rs_box wow fadeInLeft ">

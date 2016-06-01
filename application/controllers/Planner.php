@@ -22,6 +22,11 @@ class Planner extends CI_Controller {
 		$this->session->view = "paket";
 		$this->load->view($this->session->view);
 	}
+	
+	public function bayar(){
+		$this->session->view = "bayar";
+		$this->load->view($this->session->view);
+	}
 }
 
 /* End of file Planner.php */

@@ -23,6 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | -------------------------------------------------------------------------
 | RESERVED ROUTES
+
 | -------------------------------------------------------------------------
 |
 | There are three reserved routes:
@@ -65,4 +66,5 @@ $route['home3'] = 'account/home3';
 $route['transportasi'] = 'planner/transportasi';
 $route['paket'] = 'planner/paket';
 $route['user_profile'] = 'planner/user_profile';
+
 

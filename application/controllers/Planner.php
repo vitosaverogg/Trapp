@@ -27,6 +27,8 @@ class Planner extends CI_Controller {
 		$this->session->view = "user_profile";
 		$this->load->view($this->session->view);
 	}
+	
+	
 }
 
 /* End of file Planner.php */

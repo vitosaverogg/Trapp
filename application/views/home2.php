@@ -66,7 +66,7 @@
     <!--End Header-->
     <!--start wrapper-->
     <section class="wrapper">
-         <ul class="cb-slideshow">
+         <ul class="cb-slideshow img-responsive">
             <li><span>Image 01</span><div></div></li>
             <li><span>Image 02</span><div></div></li>
             <li><span>Image 03</span><div></div></li>

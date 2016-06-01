@@ -67,6 +67,7 @@
                                   <small>Penginapan</small>
                               </span>
                                                     </a>
+													
                                                 </li>
                                                 <li>
                                                     <a href="#step-3">
@@ -75,7 +76,8 @@
                               Step 3<br />
                               <small>Destinasi Wisata</small>
                           </span>
-                                                    </a>
+								
+																						</a>
                                                 </li>
                                                 <li>
                                                     <a href="#step-4">
@@ -104,7 +106,22 @@
                                             </div>
                                             <div id="step-2">
                                                 <p class="text-center">
-                                                    -- Kosong --
+                                                    <form action="action_page.php">
+														<div class="field-wrap">
+															<label>
+																Lokasi <span class="req"> :</span>
+															</label>
+															<input type="email"required autocomplete="off"/>
+													    </div>
+														<div class="field-wrap">
+															<label>
+																Hotel <span class="req"> </span>
+															</label>
+															<input type="email"required autocomplete="off"/>
+													    </div>
+														 
+														  <input type="submit" value="Submit">
+													</form> 
                                                 </p>
                                                 <p class="clearfix text-center">
                                                     <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Skip</button>

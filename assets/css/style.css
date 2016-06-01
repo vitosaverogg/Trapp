@@ -563,14 +563,15 @@ ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webki
 /* 4. FOOTER & FOOTER WIDGETS												 */
 /* ===================================================== */
 .footer_bottom{
-    background:#292F38;
+
+	background:#292F38;
     padding:20px 0;
     color:#fff;
 }
-.footer{
+footer{
     background:#323A45;
-    padding:0px 0;
-    position: relative;
+    padding-bottom:0px;
+    position: bottom-fixed;
     color:#fff;
 }
 /* Footer Widgets

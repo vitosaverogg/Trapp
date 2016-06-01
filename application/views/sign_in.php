@@ -97,7 +97,7 @@
         </div>
     </footer>
     <!--end footer-->
-    <section class="footer_bottom ">
+    <section class="footer_bottom " style="position:fixed-bottom; bottom:0px; padding-top: 10px;">
         <div class="container ">
             <div class="row ">
                 <div class="col-sm-6 ">

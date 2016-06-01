@@ -26,7 +26,7 @@
     <![endif]-->
 </head>
 
-<body background="<?php echo base_url(); ?>assets/images/sunset.jpg">
+<body background="<?php echo base_url(); ?>assets/images/border.png">
     <!--Start Header-->
     <?php 
         $this->load->view('header', FALSE);
@@ -43,9 +43,9 @@
                             <figure class="post_img">
                                 <div id="slider" class="swipe">
                                     <ul class="swipe-wrap">
-                                        <li><img src="<?php echo base_url(); ?>assets/images/blog/blog_2.png" alt="blog post"></li>
-                                        <li><img src="<?php echo base_url(); ?>assets/images/blog/blog_1.png" alt="blog post"></li>
-                                        <li><img src="<?php echo base_url(); ?>assets/images/blog/blog_3.png" alt="blog post"></li>
+                                        <li><img src="<?php echo base_url(); ?>assets/images/11.jpg" alt="blog post"></li>
+                                        <li><img src="<?php echo base_url(); ?>assets/images/12.jpg" alt="blog post"></li>
+                                        <li><img src="<?php echo base_url(); ?>assets/images/13.jpg" alt="blog post"></li>
                                     </ul>
                                     <div class="swipe-navi">
                                         <div class="swipe-left" onclick="mySwipe.prev()"><i class="fa fa-chevron-left"></i></div>
@@ -120,15 +120,9 @@
                                 </div>
                                 <!-- end budget -->
                                 <!-- tombol -->
-                                <div style="text-align: center; width: 100%;">
+                                <p class="clearfix">
                                     <button type="submit" class="log-twitter">Submit</button>
-                                </div>
-                                <p>
-                                    <h1></h1>
-                                    <div style="text-align: center; width: 100%;">
-                                        <input type="submit"  value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'">
-                                    </div>
-                                    
+                                    <input type="submit"  value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'">
                                 </p>
                                 <!-- end tombol -->
                             </form>​​

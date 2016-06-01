@@ -33,6 +33,16 @@ class Account extends CI_Controller {
 		$this->load->view($this->session->view, FALSE);
 	}
 
+	public function home3(){
+		$array = array(
+			'view' => 'home3'
+		);
+		
+		$this->session->set_userdata( $array );
+
+		$this->set_navbar_by_login($this->session->login);
+		$this->load->view($this->session->view, FALSE);
+	}
 	public function sign_up(){
 		$this->session->view = "sign_up";
 		

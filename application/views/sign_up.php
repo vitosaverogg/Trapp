@@ -39,6 +39,34 @@
         <section class="content right_sidebar">
             <div class="container">
                 <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="sidebar-widget">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>Sign Up</h2>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+                                    <br />
+                                    <form class="form-horizontal form-label-left input_mask  method=" post " action="<?php echo base_url(); ?>#">
+                                        <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Email">
+                                            <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
+                                        </div>
+                                        <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="No HP">
+                                            <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                                                <button type="submit" class="btn btn-success">Register</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
                         <div class="x_panel">
                             <div class="x_title">
@@ -47,45 +75,11 @@
                                 </p>
                             </div>
                             <div class="x_content">
-                                <p>1</p>
-                                <p>2</p>
-                                <p>3</p>
+                                <p>1.</p>
+                                <p>2.</p>
+                                <p>3.</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="sidebar-widget">
-                            <div class="x_panel">
-                                <div class="x_title">
-                                    <h2>Form Design <small>different form elements</small></h2>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="x_content">
-                                    <br />
-                                    <form class="form-horizontal form-label-left input_mask  method=" post " action="<?php echo base_url(); ?>#">
-                                        <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Username">
-                                            <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
-                                        </div>
-                                        <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Email">
-                                            <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
-                                        </div>
-                                        <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Password">
-                                            <span class="fa fa-lock form-control-feedback left" aria-hidden="true"></span>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
-                                                <button type="submit" class="btn btn-success">Register</button>
-                                                <button type="submit" class="btn btn-primary">Cancel</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     </div>
                 </div>
                 <!--/.row-->

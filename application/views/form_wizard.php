@@ -28,7 +28,7 @@
 
 <body>
     <!--Start Header-->
-   <?php 
+    <?php 
    $this->load->view('header', FALSE);
     ?>
     <!--End Header-->
@@ -100,7 +100,7 @@
                                                 </form> -->
                                                 <p class="clearfix text-center">
                                                     <!-- <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Add</button> -->
-													<button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Skip</button>
+                                                    <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Skip</button>
                                                     <button class="buttonPrevious btn btn-add" onclick="window.location = '<?php echo base_url(); ?>transportasi'">Add</button>
                                                 </p>
                                             </div>
@@ -160,7 +160,7 @@
             </div>
             <!--/.row-->
             </div>
-            <!--/.container-->
+            <!--/.container-->  
         </section>
     </section>
     <!--end wrapper-->
@@ -228,7 +228,6 @@
     });
     </script>
     <!-- /jQuery Smart Wizard -->
-
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">

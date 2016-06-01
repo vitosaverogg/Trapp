@@ -17,6 +17,11 @@ class Planner extends CI_Controller {
 		$this->session->view = "transportasi";
 		$this->load->view($this->session->view);
 	}
+
+	public function paket(){
+		$this->session->view = "paket";
+		$this->load->view($this->session->view);
+	}
 }
 
 /* End of file Planner.php */

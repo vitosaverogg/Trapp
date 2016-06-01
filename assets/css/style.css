@@ -2435,7 +2435,9 @@ textarea {
     /* Size and position */
     width: 49%;
     height: 38px;
-    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
     position: relative;
 
     /* Styles */
@@ -2447,7 +2449,6 @@ textarea {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     font-size: 14px;
     line-height: 38px; /* Same as height */
-    text-align: center;
     font-weight: bold;
 }
 

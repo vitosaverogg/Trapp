@@ -120,9 +120,15 @@
                                 </div>
                                 <!-- end budget -->
                                 <!-- tombol -->
-                                <p class="clearfix">
+                                <div style="text-align: center; width: 100%;">
                                     <button type="submit" class="log-twitter">Submit</button>
-                                    <input type="submit"  value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'">
+                                </div>
+                                <p>
+                                    <h1></h1>
+                                    <div style="text-align: center; width: 100%;">
+                                        <input type="submit"  value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'">
+                                    </div>
+                                    
                                 </p>
                                 <!-- end tombol -->
                             </form>​​

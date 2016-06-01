@@ -40,30 +40,17 @@
                 <!-- row -->
                 <div class="row">
                     <!-- col -->
-                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-                        <div class="x_panel">
-                            <div class="x_title">
-                                <p>
-                                    Keuntungan menjadi member trapp
-                                </p>
-                            </div>
-                            <div class="x_content">
-                                <p>1</p>
-                                <p>2</p>
-                                <p>3</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    
+                    <div class="auth-form">
                         <div class="sidebar-widget">
-                            <div class="x_panel">
+                            <div class="margin:0;padding:0;display:inline">
                                 <div class="x_title">
-                                    <h2>Form Design <small>different form elements</small></h2>
+                                    <h2>Sign In </h2>
                                     <div class="clearfix"></div>
                                 </div>
                                 <div class="x_content">
                                     <br />
-                                    <form class="form-horizontal form-label-left input_mask  method=" post " action="<?php echo base_url(); ?>auth">
+                                    <form class="form-horizontal form-label-center input_mask"  method=" post " action="<?php echo base_url(); ?>auth">
                                         <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
                                             <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Username">
                                             <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
@@ -97,7 +84,7 @@
         </div>
     </footer>
     <!--end footer-->
-    <section class="footer_bottom " style="position:fixed-bottom; bottom:0px; padding-top: 10px;">
+    <section class="footer_bottom ">
         <div class="container ">
             <div class="row ">
                 <div class="col-sm-6 ">

@@ -212,7 +212,7 @@ a:focus{
     height: auto;
 }
 .content{
-	padding:80px 0 0px;
+	padding:20px 0 0px;
 	position: relative;
 }
 .sub_content{
@@ -3994,7 +3994,7 @@ ul.nav-tabs li.last-tab a
     outline:none;
 }
 .tab-content {
-    border:1px solid #ebebeb;
+    /*border:1px solid #ebebeb;*/
     padding:20px 14px;
 }
 .tab-content:first-child { display: block; }

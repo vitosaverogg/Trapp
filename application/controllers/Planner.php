@@ -9,12 +9,12 @@ class Planner extends CI_Controller {
 
 	public function index()
 	{
-		$this->session->view = "form_wizard";
+		$this->session->view = "form_wizard/form_wizard";
 		$this->load->view($this->session->view, FALSE);	
 	}
 
 	public function transportasi(){
-		$this->session->view = "transportasi";
+		$this->session->view = "form_wizard/transportasi";
 		$this->load->view($this->session->view);
 	}
 

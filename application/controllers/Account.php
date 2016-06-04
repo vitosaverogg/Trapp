@@ -16,8 +16,6 @@ class Account extends CI_Controller {
 
 	public function index()
 	{
-		
-
 		$this->set_navbar_by_login($this->session->login);
 		$this->load->view($this->session->view, FALSE);
 	}
@@ -46,13 +44,13 @@ class Account extends CI_Controller {
 	public function sign_up(){
 		$this->session->view = "sign_up";
 		
-		$this->session->navbar = "_navbar_empty";
+		$this->session->navbar = "navbar/_navbar_empty";
 		$this->load->view($this->session->view, FALSE);
 	}
 
 	public function sign_in(){
 
-		$this->session->navbar = "_navbar_empty";
+		$this->session->navbar = "navbar/_navbar_empty";
 		$this->load->view('sign_in', FALSE);
 	}
 
@@ -71,9 +69,9 @@ class Account extends CI_Controller {
 
 	public function set_navbar_by_login($login){
 		if ($login){
-			$nav = "_navbar_login";
+			$nav = "navbar/_navbar_login";
 		}else{
-			$nav = "_navbar_not_login";
+			$nav = "navbar/_navbar_not_login";
 		}
 
 		

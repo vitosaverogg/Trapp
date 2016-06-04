@@ -10,14 +10,10 @@
     <title>Trapp</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <!-- CSS FILES -->
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/style.css" media="screen" data-name="skins">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/layout/wide.css" data-name="layout">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/switcher.css" media="screen" />
-    <!-- Custom Theme Style -->
-    <link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
+    <!-- css file -->
+    <?php 
+        $this->load->view('_css');
+     ?>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,7 +27,7 @@
 <body>
     <!--Start Header-->
     <?php 
-        $this->load->view('header');
+        $this->load->view('_header');
      ?>
     <!--End Header-->
     <!--start wrapper-->
@@ -94,32 +90,9 @@
         </section>
     </section>
     <!--end wrapper-->
-    <!--start footer-->
-    <footer class="footer ">
-        <div class="container ">
-        </div>
-    </footer>
-    <!--end footer-->
-    <section class="footer_bottom ">
-        <div class="container ">
-            <div class="row ">
-                <div class="col-sm-6 ">
-                    <p class="copyright ">&copy; Copyright 2015 Everest | Powered by <a href="http://www.jqueryrain.com/ ">jQuery Rain</a></p>
-                </div>
-                <div class="col-sm-6 ">
-                    <div class="footer_social ">
-                        <ul class="footbot_social ">
-                            <li><a class="fb " href="#. " data-placement="top " data-toggle="tooltip " title="Facebook "><i class="fa fa-facebook "></i></a></li>
-                            <li><a class="twtr " href="#. " data-placement="top " data-toggle="tooltip " title="Twitter "><i class="fa fa-twitter "></i></a></li>
-                            <li><a class="dribbble " href="#. " data-placement="top " data-toggle="tooltip " title="Dribbble "><i class="fa fa-dribbble "></i></a></li>
-                            <li><a class="skype " href="#. " data-placement="top " data-toggle="tooltip " title="Skype "><i class="fa fa-skype "></i></a></li>
-                            <li><a class="rss " href="#. " data-placement="top " data-toggle="tooltip " title="RSS "><i class="fa fa-rss "></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php 
+        $this->load->view('_footer');
+     ?>
     <script type="text/javascript " src="<?php echo base_url(); ?>assets/js/jquery-1.10.2.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/js/jquery.easing.1.3.js"></script>

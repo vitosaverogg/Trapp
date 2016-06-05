@@ -25,7 +25,7 @@
 <body>
     <!--Start Header-->
     <?php 
-   $this->load->view('header', FALSE);
+   $this->load->view('_header', FALSE);
     ?>
     <!--End Header-->
     <section class="wrapper">
@@ -35,6 +35,9 @@
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class="col-md-3 col-sm-3 col-xs-12">
                             <div class="x_panel">
+								<div class="x_content">
+									<img src="<?php echo base_url(); ?>assets/images/paket/kawahputih.jpg" style="width: 100%; height: 100%">
+								</div>
                                 <div class="x_title">
                                     <h2>Paket 1</h2>
                                     <div class="clearfix"></div>
@@ -50,12 +53,16 @@
                                     <h2>Rp. 5.500.000</h2>
                                     <div style="text-align: center; width: 100%;">
                                         <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Detail</button>
+										<button class="buttonPrevious btn btn-add">Bayar</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-12">
                             <div class="x_panel">
+								<div class="x_content">
+									<img src="<?php echo base_url(); ?>assets/images/paket/tangkubanperahu.jpg" style="width: 100%; height: 139.097px">
+								</div>
                                 <div class="x_title">
                                     <h2>Paket 2</h2>
                                     <div class="clearfix"></div>
@@ -71,12 +78,16 @@
                                     <h2>Rp. 5.500.000</h2>
                                     <div style="text-align: center; width: 100%;">
                                         <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Detail</button>
+										<button class="buttonPrevious btn btn-add">Bayar</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-12">
                             <div class="x_panel">
+								<div class="x_content">
+									<img src="<?php echo base_url(); ?>assets/images/paket/gedungsate.jpg" style="width: 100%; height: 139.097px">
+								</div>
                                 <div class="x_title">
                                     <h2>Paket 3</h2>
                                     <div class="clearfix"></div>
@@ -92,12 +103,16 @@
                                     <h2>Rp. 5.500.000</h2>
                                     <div style="text-align: center; width: 100%;">
                                         <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Detail</button>
+										<button class="buttonPrevious btn btn-add">Bayar</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-3 col-xs-12">
                             <div class="x_panel">
+								<div class="x_content">
+									<img src="<?php echo base_url(); ?>assets/images/paket/ciater.jpg" style="width: 100%; height: 139.097px">
+								</div>
                                 <div class="x_title">
                                     <h2>Paket 4</h2>
                                     <div class="clearfix"></div>
@@ -113,6 +128,7 @@
                                     <h2>Rp. 5.500.000</h2>
                                     <div style="text-align: center; width: 100%;">
                                         <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Detail</button>
+										<button class="buttonPrevious btn btn-add">Bayar</button>
                                     </div>
                                 </div>
                             </div>

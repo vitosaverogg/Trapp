@@ -67,7 +67,7 @@
                             </ul>
                             <div id="step-transportasi">
                                 <?php 
-                                $this->load->view('form_wizard/transportasi');
+                                    $this->load->view('form_wizard/transportasi');
                                  ?>
                             </div>
                             <div id="step-penginapan">

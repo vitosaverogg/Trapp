@@ -30,42 +30,36 @@
     <!--End Header-->
     <!--start wrapper-->
     <section class="wrapper">
-        <section class="content right_sidebar">
+        <section class="content">
             <!-- container -->
             <div class="container">
-                <!-- row -->
-                <div class="row">
-                    <!-- col -->
-                    
-                    <div class="auth-form">
-                        <div class="sidebar-widget">
-                            <div class="margin:0;padding:0;display:inline">
-                                <div class="x_title">
-                                    <h2>Sign In </h2>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="x_content">
-                                    <br />
-                                    <form class="form-horizontal form-label-center input_mask"  method=" post " action="<?php echo base_url(); ?>auth">
-                                        <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Username">
-                                            <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                <!-- col -->
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>Sign In </h2>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+                                <br />
+                                <form class="form-horizontal form-label-center input_mask" method=" post " action="<?php echo base_url(); ?>auth">
+                                    <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                                        <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Username">
+                                        <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+                                        <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Password">
+                                        <span class="fa fa-lock form-control-feedback left" aria-hidden="true"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
+                                            <button type="submit" class="btn btn-success">Login</button>
+                                            <button type="submit" class="btn btn-primary">Cancel</button>
                                         </div>
-                                        <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess4" placeholder="Password">
-                                            <span class="fa fa-lock form-control-feedback left" aria-hidden="true"></span>
-                                        </div>
-                                        <div class="form-group">
-                                            <div class="col-md-9 col-sm-9 col-xs-12 col-md-offset-3">
-                                                <button type="submit" class="btn btn-success">Login</button>
-                                                <button type="submit" class="btn btn-primary">Cancel</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
-                    </div>
                     <!-- end col -->
                 </div>
                 <!--/.row-->

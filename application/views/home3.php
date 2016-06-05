@@ -27,7 +27,6 @@
     <?php 
         $this->load->view('_header', FALSE);
      ?>
-    </header>
     <!--End Header-->
     <!--start wrapper-->
     <section class="wrapper">

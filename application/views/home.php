@@ -27,7 +27,6 @@
     <?php 
         $this->load->view('_header', FALSE);
      ?>
-    </header>
     <!--End Header-->
     <!--start wrapper-->
     <section class="wrapper">
@@ -60,13 +59,8 @@
                                 <div class="form-group">
                                     <label class="control-label col-md-3 col-sm-3 col-xs-12">Asal</label>
                                     <div class="col-md-9 col-sm-9 col-xs-12">
-                                        <select class="form-control">
-                                            <option>Choose option</option>
-                                            <option>Option one</option>
-                                            <option>Option two</option>
-                                            <option>Option three</option>
-                                            <option>Option four</option>
-                                        </select>
+                                        <input type="text" name="country" id="asal" />
+                                        <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
                                     </div>
                                 </div>
                                 <!-- end asal -->
@@ -74,13 +68,8 @@
                                 <div class="form-group">
                                     <label class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</label>
                                     <div class="col-md-9 col-sm-9 col-xs-12">
-                                        <select class="form-control">
-                                            <option>Choose option</option>
-                                            <option>Option one</option>
-                                            <option>Option two</option>
-                                            <option>Option three</option>
-                                            <option>Option four</option>
-                                        </select>
+                                        <input type="text" name="country" id="tujuan" />
+                                        <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
                                     </div>
                                 </div>
                                 <!-- end tujuan -->
@@ -116,10 +105,11 @@
                                 </div>
                                 <!-- end budget -->
                                 <!-- tombol -->
-                                <p class="clearfix">
+                                <div class="text-center">
                                     <button type="submit" class="log-twitter">Submit</button>
-                                    <input type="submit"  value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'">
-                                </p>
+                                    <hr>
+                                    <input type="submit" value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'">
+                                </div>
                                 <!-- end tombol -->
                             </form>​​
                         </div>
@@ -156,6 +146,11 @@
     <?php 
         $this->load->view('script/date_picker');
      ?>
+    <!-- <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/jquery-1.8.2.min.js"></script> -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/jquery.mockjax.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/countries.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/demo.js"></script>
 </body>
 
 </html>

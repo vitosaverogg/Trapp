@@ -1,4 +1,9 @@
-<html>
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" class="no-js" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,6 +23,128 @@
 </head>
 
 <body>
+    <!--Start Header-->
+    <?php 
+   $this->load->view('_header', FALSE);
+    ?>
+    <!--End Header-->
+    <section class="wrapper">
+        <section class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-md-8 col-sm-8 col-xs-12" style="padding-right: 0">
+                            <div class="x_panel">
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 200px; height: 125px">
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<h2 style="margin: 0">HONDA CITY</h2>
+									<p>X passengers</p>
+									<p>X bags</p>
+									<p>Include : </p>
+									<ol>
+										<li>Driver</li>
+										<li>Fuel</li>
+									</ol>
+								</div>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-sm-4 col-xs-12" style="padding-left: 0">
+                            <div class="x_panel">
+                                <div class="x_content">
+									<h1 style="margin: 0; text-align: right">Rp. 750.000</h1>
+									<h3 style="margin: 0; text-align: right">per 12 hours</h3>
+									<button class="btn btn-success">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col-md-8 col-sm-8 col-xs-12" style="padding-right: 0">
+                            <div class="x_panel">
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 200px; height: 125px">
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<h2 style="margin: 0">HONDA CITY</h2>
+									<p>X passengers</p>
+									<p>X bags</p>
+									<p>Include : </p>
+									<ol>
+										<li>Driver</li>
+										<li>Fuel</li>
+									</ol>
+								</div>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-sm-4 col-xs-12" style="padding-left: 0">
+                            <div class="x_panel">
+                                <div class="x_content">
+									<h1 style="margin: 0; text-align: right">Rp. 750.000</h1>
+									<h3 style="margin: 0; text-align: right">per 12 hours</h3>
+									<button class="btn btn-success">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+						<div class="col-md-8 col-sm-8 col-xs-12" style="padding-right: 0">
+                            <div class="x_panel">
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 200px; height: 125px">
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12">
+									<h2 style="margin: 0">HONDA CITY</h2>
+									<p>X passengers</p>
+									<p>X bags</p>
+									<p>Include : </p>
+									<ol>
+										<li>Driver</li>
+										<li>Fuel</li>
+									</ol>
+								</div>
+                            </div>
+                        </div>
+						<div class="col-md-4 col-sm-4 col-xs-12" style="padding-left: 0">
+                            <div class="x_panel">
+                                <div class="x_content">
+									<h1 style="margin: 0; text-align: right">Rp. 750.000</h1>
+									<h3 style="margin: 0; text-align: right">per 12 hours</h3>
+									<button class="btn btn-success">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+	<?php
+		$this->load->view('_footer');
+	?>
 	
+    <script type="text/javascript " src="<?php echo base_url(); ?>assets/js/jquery-1.10.2.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/jquery.easing.1.3.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.cookie.js"></script>
+    <!-- jQuery cookie -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/styleswitch.js"></script>
+    <!-- Style Colors Switcher -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.smartmenus.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.smartmenus.bootstrap.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jflickrfeed.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/swipe.js"></script>
+    <!---->
+    <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
+    <?php 
+        $this->load->view('script/date_picker');
+     ?>
+    <!-- <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/jquery-1.8.2.min.js"></script> -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/jquery.mockjax.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/countries.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/demo.js"></script>
 </body>
 </html>

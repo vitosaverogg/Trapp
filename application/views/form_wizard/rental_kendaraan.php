@@ -20,6 +20,17 @@
                                         </div>
                                     </div>
                                     <!-- end from group -->
+									<!-- Pilihan -->
+									<div class="form-group">
+                                        <label for = "pilihan" class="control-label col-md-9 col-sm-12 col-xs-12">Pilih Rental :</label>
+										<div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
+										<select class="form-control" id="pilihan" placeholder="pilihan rental">
+											<option>1</option>
+										</select>
+										</div>
+                                    </div>
+									<!-- end pilihan -->
+									
                                 </div>
                                 <!-- end x_content -->
                         </div>

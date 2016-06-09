@@ -133,25 +133,7 @@
     <script src="<?php echo base_url(); ?>assets/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
     <script src="<?php echo base_url(); ?>assets/vendors/nprogress/nprogress.js"></script>
-    <!-- jQuery Smart Wizard -->
-    <script src="<?php echo base_url(); ?>assets/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
-    <!-- Custom Theme Scripts -->
-    <script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
-    <!-- jQuery Smart Wizard -->
-    <script>
-    $(document).ready(function() {
-        $('#wizard').smartWizard();
-
-        $('#wizard_verticle').smartWizard({
-            transitionEffect: 'slide'
-        });
-
-        $('.buttonNext').addClass('btn btn-success');
-        $('.buttonPrevious').addClass('btn btn-primary');
-        $('.buttonFinish').addClass('btn btn-default');
-    });
-    </script>
-    <!-- /jQuery Smart Wizard -->
+    
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -175,9 +157,11 @@
 
 
     <?php 
-        $this->load->view('script/date_picker');
+        $this->load->view('scripts/date_picker');
+        $this->load->view('scripts/auto_completed');
+        $this->load->view('scripts/smart_wizard');
     ?>
-    <!-- End Modal -->
+    
 </body>
 
 </html>

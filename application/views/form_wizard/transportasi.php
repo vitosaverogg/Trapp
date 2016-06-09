@@ -26,7 +26,7 @@
                                     <div class="form-group">
                                         <label class="control-label col-md-12 col-sm-12 col-xs-12">Kota Asal</label>
                                         <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Bandung">
+                                            <input type="text" class="form-control has-feedback-left" name="country" id="asal" placeholder="Bandung">
                                             <span class="fa fa-plane form-control-feedback left" aria-hidden="true"></span>
                                         </div>
                                     </div>
@@ -35,7 +35,7 @@
                                     <div class="form-group">
                                         <label class="control-label col-md-12 col-sm-12 col-xs-12">Kota Tujuan</label>
                                         <div class="col-md-12 col-sm-12 col-xs-12 form-group has-feedback">
-                                            <input type="text" class="form-control has-feedback-left" id="inputSuccess2" placeholder="Jakarta">
+                                            <input type="text" class="form-control has-feedback-left" name="country" id="tujuan" placeholder="Jakarta">
                                             <span class="fa fa-plane fa-rotate-90 form-control-feedback left" aria-hidden="true"></span>
                                         </div>
                                     </div>
@@ -83,7 +83,7 @@
                                         </div>
                                     </div>
                                     <!-- end from group -->
-                                    <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+                                    <div class="text-center">
                                         <button class="btn btn-success">Cari Tiket</button>
                                     </div>
                                 </div>

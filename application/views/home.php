@@ -144,13 +144,11 @@
     <!---->
     <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
     <?php 
-        $this->load->view('script/date_picker');
+        $this->load->view('scripts/date_picker');
+        $this->load->view('scripts/auto_completed');
      ?>
-    <!-- <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/jquery-1.8.2.min.js"></script> -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/jquery.mockjax.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/jquery.autocomplete.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/countries.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/demo.js"></script>
+
+
 </body>
 
 </html>

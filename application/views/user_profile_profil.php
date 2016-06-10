@@ -55,24 +55,21 @@
     <div class="col-md-7 col-sm-7 col-lg-8">
                 <div class="x_panel">
                     <div class="x_title">
-                        <h2>Your Plan </h2>
+                        <h2>IDENTITAS </h2>
                         <div class="clearfix"></div>
                     </div>
                         <ul>
-                            <li> Asal </li>
+                            <li> Nama </li>
                             <br>
-                            <li> Tujuan </li>
+                            <li> Tempat Tanggal Lahir </li>
                             <br>
-                            <li> Tanggal Berangkat </li>
+                            <li> Asal  </li>
                             <br>
-                            <li> Jam Berangkat </li>
+                            <li> Nomor Telpon Genggam </li>
                             <br>
                             <li> Harga Perjalanan </li>
-                            <br>   
+                            <br>  
                         </ul> 
-                        <div class="x_title">
-                            <h2> SELAMAT SAMPAI TUJUAN </h2>
-                        </div>
                 </div>
     </div>
 

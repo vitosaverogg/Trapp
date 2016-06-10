@@ -27,6 +27,10 @@ class Planner extends CI_Controller {
 		$this->session->view = "user_profile";
 		$this->load->view($this->session->view);
 	}
+	public function user_profile_profil(){
+		$this->session->view = "user_profile_profil";
+		$this->load->view($this->session->view);
+	}
 	
 	public function invoice(){
 		$this->session->view = "invoice";

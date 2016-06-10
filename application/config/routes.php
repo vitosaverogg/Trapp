@@ -66,6 +66,7 @@ $route['home3'] = 'account/home3';
 $route['transportasi'] = 'planner/transportasi';
 $route['paket'] = 'planner/paket';
 $route['user_profile'] = 'planner/user_profile';
+$route['user_profile_profil'] = 'planner/user_profile_profil';
 $route['invoice'] = 'planner/invoice';
 $route['rental'] = 'planner/rental';
 

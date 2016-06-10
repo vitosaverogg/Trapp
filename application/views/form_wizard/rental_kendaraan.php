@@ -56,7 +56,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-                                        <button class="btn btn-success">Cari Tiket</button>
+                                        <button class="btn btn-success">Cari Mobil</button>
                                     </div>
                                 </div>
                                 <!-- end x_content -->

@@ -32,73 +32,73 @@
     <section class="wrapper">
         <!-- container -->
         <div class="container">
-        <div class="content">
-        <!-- col 8 -->
-            <div class="col-md-8 col-sm-8 col-xs-12">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="x_content">
-                        <!-- Smart Wizard -->
-                        <div id="wizard" class="form_wizard wizard_horizontal">
-                            <ul class="wizard_steps">
-                                <li>
-                                    <a href="#step-transportasi">
-                                        <span class="step_no">1</span>
-                                        <small>Transportasi</small>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#step-penginapan">
-                                        <span class="step_no">2</span>
-                                        <small>Penginapan</small>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#step-destinasi-wisata">
-                                        <span class="step_no">3</span>
-                                        <small>Destinasi Wisata</small>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#step-rental-kendaraan">
-                                        <span class="step_no">4</span>
-                                        <small>Rental Kendaraan</small>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div id="step-transportasi">
-                                <?php 
+            <div class="content">
+                <!-- col 8 -->
+                <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="x_content">
+                            <!-- Smart Wizard -->
+                            <div id="wizard" class="form_wizard wizard_horizontal">
+                                <ul class="wizard_steps">
+                                    <li>
+                                        <a href="#step-transportasi">
+                                            <span class="step_no">1</span>
+                                            <small>Transportasi</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#step-penginapan">
+                                            <span class="step_no">2</span>
+                                            <small>Penginapan</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#step-destinasi-wisata">
+                                            <span class="step_no">3</span>
+                                            <small>Destinasi Wisata</small>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#step-rental-kendaraan">
+                                            <span class="step_no">4</span>
+                                            <small>Rental Kendaraan</small>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div id="step-transportasi">
+                                    <?php 
                                     $this->load->view('form_wizard/transportasi');
                                  ?>
-                            </div>
-                            <div id="step-penginapan">
-                                <?php 
+                                </div>
+                                <div id="step-penginapan">
+                                    <?php 
                                     $this->load->view('form_wizard/penginapan');
                                  ?>
-                            </div>
-                            <div id="step-destinasi-wisata">
-                                <?php 
+                                </div>
+                                <div id="step-destinasi-wisata">
+                                    <?php 
                                     $this->load->view('form_wizard/destinasi_wisata');
                                  ?>
-                            </div>
-                            <div id="step-rental-kendaraan">
-                                <?php 
+                                </div>
+                                <div id="step-rental-kendaraan">
+                                    <?php 
                                     $this->load->view('form_wizard/rental_kendaraan');
                                  ?>
+                                </div>
                             </div>
+                            <!-- End SmartWizard Content -->
                         </div>
-                        <!-- End SmartWizard Content -->
                     </div>
                 </div>
-            </div>
-            <!-- end col -->
-            <div class="col-md-4 col-sm-4 col-xs-12">
-                <div class="x_panel">
-                    <div class="x_title">
-                        <h2>Detil Order</h2>
-                        <div class="clearfix"></div>
+                <!-- end col -->
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="x_panel">
+                        <div class="x_title">
+                            <h2>Detil Order</h2>
+                            <div class="clearfix"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
             <!-- end content -->
         </div>
@@ -108,32 +108,17 @@
     <?php 
         $this->load->view('_footer');
      ?>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-1.10.2.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/jquery.easing.1.3.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/retina-1.1.0.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.cookie.js"></script>
-    <!-- jQuery cookie -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/styleswitch.js"></script>
-    <!-- Style Colors Switcher -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.smartmenus.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.smartmenus.bootstrap.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.jcarousel.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jflickrfeed.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/swipe.js"></script>
-    <!---->
-    <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
     <!-- jQuery -->
     <script src="<?php echo base_url(); ?>assets/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="<?php echo base_url(); ?>assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- FastClick -->
-    <script src="<?php echo base_url(); ?>assets/vendors/fastclick/lib/fastclick.js"></script>
-    <!-- NProgress -->
-    <script src="<?php echo base_url(); ?>assets/vendors/nprogress/nprogress.js"></script>
-    
+    <!-- Slider -->
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jflickrfeed.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/swipe.js"></script>
+    <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
+    <!---->
+   
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -154,14 +139,12 @@
             </div>
         </div>
     </div>
-
-
+    <!-- End Modal -->
     <?php 
         $this->load->view('scripts/date_picker');
         $this->load->view('scripts/auto_completed');
         $this->load->view('scripts/smart_wizard');
     ?>
-    
 </body>
 
 </html>

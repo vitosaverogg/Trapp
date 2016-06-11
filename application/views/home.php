@@ -52,68 +52,65 @@
                     </div>
                     <!--your trip planner-->
                     <div class="col-lg-4 col-md-4 col-sm-4">
-                        <div class="sidebar">
-                            <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard">
-                                <h1><span class="log-in">your</span> TRIP <span class="sign-up">plan</span></h1>
-                                <!-- asal -->
-                                <div class="form-group">
-                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Asal</label>
-                                    <div class="col-md-9 col-sm-9 col-xs-12">
-                                        <input type="text" name="country" id="asal" />
-                                        <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
-                                    </div>
+                        <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard">
+                            <h1><span class="log-in">your</span> TRIP <span class="sign-up">plan</span></h1>
+                            <!-- asal -->
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Asal</label>
+                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                    <input type="text" name="country" id="asal" />
+                                    <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
                                 </div>
-                                <!-- end asal -->
-                                <!-- tujuan -->
-                                <div class="form-group">
-                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</label>
-                                    <div class="col-md-9 col-sm-9 col-xs-12">
-                                        <input type="text" name="country" id="tujuan" />
-                                        <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
-                                    </div>
+                            </div>
+                            <!-- end asal -->
+                            <!-- tujuan -->
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</label>
+                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                    <input type="text" name="country" id="tujuan" />
+                                    <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
                                 </div>
-                                <!-- end tujuan -->
-                                <!-- tanggal -->
-                                <div class="form-group">
-                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</label>
-                                    <div class="col-md-9 col-sm-9 col-xs-12">
-                                        <input style="padding-left: 40px;" type="text" class="form-control has-feedback-left" id="single_cal4" placeholder="DD/MM/YYYY" aria-describedby="inputSuccess2Status4">
-                                        <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
-                                        <span id="inputSuccess2Status4" class="sr-only">(success)</span>
-                                    </div>
+                            </div>
+                            <!-- end tujuan -->
+                            <!-- tanggal -->
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</label>
+                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                    <input style="padding-left: 40px;" type="text" class="form-control has-feedback-left" id="single_cal4" placeholder="DD/MM/YYYY" aria-describedby="inputSuccess2Status4">
+                                    <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
+                                    <span id="inputSuccess2Status4" class="sr-only">(success)</span>
                                 </div>
-                                <!-- end tanggal -->
-                                <!-- budget -->
-                                <div class="form-group">
-                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Budget</label>
-                                    <div class="col-md-9 col-sm-9 col-xs-12">
-                                        <input type="number" name="money" id="autocomplete-custom-append" placeholder="ex Rp 50.000" class="form-control col-md-10" style="float: left;" />
-                                    </div>
+                            </div>
+                            <!-- end tanggal -->
+                            <!-- budget -->
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Budget</label>
+                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                    <input type="number" name="money" id="autocomplete-custom-append" placeholder="ex Rp 50.000" class="form-control col-md-10" style="float: left;" />
                                 </div>
-                                <div class="form-group">
-                                    <label class="control-label col-md-3 col-sm-3 col-xs-12">Pilihan</label>
-                                    <div class="control-label col-md-4 col-sm-4 col-xs-12">
-                                        <label>
-                                            <input type="radio" checked="" value="option1 " id="optionsRadios1 " name="optionsRadios "> Custom
-                                        </label>
-                                    </div>
-                                    <div class="control-label col-md-4 col-sm-4 col-xs-12">
-                                        <label>
-                                            <input type="radio" value="option2" id="optionsRadios2 " name="optionsRadios "> Paket
-                                        </label>
-                                    </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Pilihan</label>
+                                <div class="control-label col-md-4 col-sm-4 col-xs-12">
+                                    <label>
+                                        <input type="radio" checked="" value="option1 " id="optionsRadios1 " name="optionsRadios "> Custom
+                                    </label>
                                 </div>
-                                <!-- end budget -->
-                                <!-- tombol -->
-                                <div class="text-center">
-                                    <button type="submit" class="log-twitter">Submit</button>
-                                    <hr>
-                                    <input type="submit" value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'">
+                                <div class="control-label col-md-4 col-sm-4 col-xs-12">
+                                    <label>
+                                        <input type="radio" value="option2" id="optionsRadios2 " name="optionsRadios "> Paket
+                                    </label>
                                 </div>
-                                <!-- end tombol -->
-                            </form>​​
-                        </div>
-                        <!-- sidebar -->
+                            </div>
+                            <!-- end budget -->
+                            <!-- tombol -->
+                            <div class="text-center">
+                                <button type="submit" class="log-twitter">Submit</button>
+                                <hr>
+                                <input type="submit" value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'">
+                            </div>
+                            <!-- end tombol -->
+                        </form>​​
                     </div>
                     <!-- end your trip planner -->
                 </div>
@@ -126,29 +123,20 @@
     <?php 
         $this->load->view('_footer');
      ?>
-    <script type="text/javascript " src="<?php echo base_url(); ?>assets/js/jquery-1.10.2.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/jquery.easing.1.3.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/retina-1.1.0.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.cookie.js"></script>
-    <!-- jQuery cookie -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/styleswitch.js"></script>
-    <!-- Style Colors Switcher -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.smartmenus.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.smartmenus.bootstrap.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.jcarousel.js"></script>
+    <!-- jQuery -->
+    <script src="<?php echo base_url(); ?>assets/vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="<?php echo base_url(); ?>assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Slider -->
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jflickrfeed.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/swipe.js"></script>
-    <!---->
     <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
+    <!---->
     <?php 
         $this->load->view('scripts/date_picker');
         $this->load->view('scripts/auto_completed');
      ?>
-
-
 </body>
 
 </html>

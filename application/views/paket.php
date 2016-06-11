@@ -158,35 +158,11 @@
             </div>
         </div>
     </section>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-1.10.2.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/jquery.easing.1.3.js"></script>
-    <script src="<?php echo base_url(); ?>assets/js/retina-1.1.0.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.cookie.js"></script>
-    <!-- jQuery cookie -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/styleswitch.js"></script>
-    <!-- Style Colors Switcher -->
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.smartmenus.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.smartmenus.bootstrap.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.jcarousel.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jflickrfeed.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.magnific-popup.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/swipe.js"></script>
-    <!---->
-    <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
     <!-- jQuery -->
     <script src="<?php echo base_url(); ?>assets/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="<?php echo base_url(); ?>assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- FastClick -->
-    <script src="<?php echo base_url(); ?>assets/vendors/fastclick/lib/fastclick.js"></script>
-    <!-- NProgress -->
-    <script src="<?php echo base_url(); ?>assets/vendors/nprogress/nprogress.js"></script>
-    <!-- jQuery Smart Wizard -->
-    <script src="<?php echo base_url(); ?>assets/vendors/jQuery-Smart-Wizard/js/jquery.smartWizard.js"></script>
-    <!-- Custom Theme Scripts -->
-    <script src="<?php echo base_url(); ?>assets/js/custom.js"></script>
+    
     <!-- jQuery Smart Wizard -->
     <script>
     $(document).ready(function() {

@@ -121,6 +121,11 @@
 /* Logo
 ====================================*/
 
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
 #logo {
     float: left;
     position: absolute;
@@ -140,7 +145,7 @@
 }
 
 .content {
-    padding: 20px 0 0px;
+    padding: 10px 0 0px;
     position: relative;
 }
 
@@ -496,10 +501,11 @@
 
 .form-2 {
     /* Size and position */
-    width: 340px;
+    /*width: 340px;*/
     margin: 15px auto 30px;
     padding: 15px;
     position: relative;
+    /*float: right;*/
     /* Styles */
     background: #ffffff;
     border-radius: 4px;
@@ -551,7 +557,7 @@
 
 .form-2 label {
     display: block;
-    padding: 0px 0 5px 2px;
+    padding: 7px 0 5px 2px;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 400;
@@ -720,6 +726,17 @@
 
 input[type="submit"], .add, .beli_tiker{color:#fff !important;}
 
+input {
+    /*padding-bottom: 2px;*/
+}
+
+
+ /* Menghilangkan Spinner form type number*/
+    input[type=number]::-webkit-inner-spin-button, 
+    input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0;
+}
 
 /*=======================================================*/
 
@@ -1126,7 +1143,8 @@ body .container.body .right_col {
   background: #D9DEE4;
 }
 body {
-  color: #73879C;
+  /*color: #73879C;*/
+  color: #000000;
   /*#ECF0F1; #FCFCFC*/
   font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
   font-size: 13px;
@@ -2890,7 +2908,7 @@ legend {
   margin-left: 0;
 }
 .form-control-feedback {
-  margin-top: 3px;
+  margin-top: 6px;
   height: 23px;
   color: #bbb;
   line-height: 24px;
@@ -4880,7 +4898,6 @@ fieldset {
 .form_wizard .stepContainer {
   display: block;
   position: relative;
-  margin: 0;
   padding: 0;
   border: 0 solid #CCC;
   overflow-x: hidden;

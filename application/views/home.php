@@ -91,12 +91,12 @@
                             </div>
                             <div class="form-group">
                                 <label class="control-label col-md-3 col-sm-3 col-xs-12">Pilihan</label>
-                                <div class="control-label col-md-4 col-sm-4 col-xs-12">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
                                     <label>
                                         <input type="radio" checked="" value="option1 " id="optionsRadios1 " name="optionsRadios "> Custom
                                     </label>
                                 </div>
-                                <div class="control-label col-md-4 col-sm-4 col-xs-12">
+                                <div class="col-md-4 col-sm-4 col-xs-12">
                                     <label>
                                         <input type="radio" value="option2" id="optionsRadios2 " name="optionsRadios "> Paket
                                     </label>

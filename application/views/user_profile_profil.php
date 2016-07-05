@@ -22,60 +22,61 @@
     <![endif]-->
 </head>
 <body>
-    <header id="header">
-        <div id="top-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-3">
-                        <div id="logo">
-                            <h1><a href=""><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="Everest"/></a></h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="pixel-header continer-fluid" >  
-        </div>
-    </header>
+	<?php 
+        $this->load->view('_header', FALSE);
+    ?>
     <div id="menu">
         <nav class="navbar-wrapper navbar-default" role="navigation">
             <div class="container">
                   <div id="navbar-scroll" class="collapse navbar-collapse navbar-backyard navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li><a href="user_profile">Your Plan</a></li>
-                        <li><a href="user_profile_profil">Profile</a></li>
-                        <li><a href="#download">History</a></li>
-                    </ul>
+                    <br><br><br>
                   </div>
             </div>
         </nav>
     </div>
     <br>
     <br>
-    <div class="col-md-7 col-sm-7 col-lg-8">
-                <div class="x_panel">
-                    <div class="x_title">
-                        <h2>IDENTITAS </h2>
-                        <div class="clearfix"></div>
-                    </div>
-                        <ul>
-                            <li> Nama </li>
-                            <br>
-                            <li> Tempat Tanggal Lahir </li>
-                            <br>
-                            <li> Asal  </li>
-                            <br>
-                            <li> Nomor Telpon Genggam </li>
-                            <br>
-                            <li> Harga Perjalanan </li>
-                            <br>  
-                        </ul> 
-                </div>
-    </div>
+	
+	<div class= "container">
+	<div class= "row">
+		
+		<!-------------------------------------------Navigasi---------------------------------------------------------->
+		<div class = "col-md-2 col-lg-2 nav_container ">
+				<nav ><!--container navigasi-->
+					
+						<ul class="nav nav-pills nav-stacked">
+							<li role="presentation"><a href="#">Menu 1</a></li>
+							<li role="presentation"><a href="#">Menu 2</a></li>
+							<li role="presentation"><a href="#">Menu 3</a></li>
+						</ul>
+					
+				</nav>
+		</div>
+		
+		<!-------------------------------------------Content----------------------------------------------------------->
+		<div class="col-md-9 col-sm-9 col-lg-9">
+					<div class="x_panel">
+						<div class="x_title">
+							<h2>IDENTITAS </h2>
+							<div class="clearfix"></div>
+						</div>
+							<ul>
+								<li> Nama </li>
+								<br>
+								<li> Tempat Tanggal Lahir </li>
+								<br>
+								<li> Asal  </li>
+								<br>
+								<li> Nomor Telpon Genggam </li>
+								<br>
+								<li> Harga Perjalanan </li>
+								<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>a  
+							</ul> 
+					</div>
+		</div>
 
-    <div class = "col-md 6 col-lg 4">
-            sdadsa
-    </div>
+	</div>
+	</div>
 
 
 </body>

@@ -1,4 +1,4 @@
-.fa-rotate-45 {
+﻿.fa-rotate-45 {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -18,9 +18,14 @@
 /*HEADER
 ====================================================================== */
 
+#sign-in-dd {
+	background: #323A45;
+}
+
 #header {
     z-index: 999;
-    background: #fff;
+	background: #323A45;
+    
     width: 100%;
     transition: all 0.4s ease-in-out 0s;
 }
@@ -31,6 +36,8 @@
     padding: 5px 0 3px;
     height: 35px;
 }
+
+
 
 .top-info ul {
     list-style: none;
@@ -155,6 +162,17 @@
 
 
 /*======================================================================*/
+
+/*Profile Navigation
+========================================================================*/
+.nav_container{
+	background-color: yellow;
+	color: yellow;
+
+}
+
+/*======================================================================*/
+
 
 
 /*Slider

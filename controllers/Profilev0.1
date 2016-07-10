@@ -1,0 +1,31 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class Profile extends CI_Controller {
+
+	public function index()//apabila terdapat session login user maka masuk ke halaman yang profile
+	{
+		//jika terdapat session maka terhubung halaman profile
+		if($this->session->login){
+		
+		}else{ //jika tidak akan di redirect ke halaman sebelumnya
+			
+		}
+	}
+	
+	
+	
+	
+	
+	public function user_profile(){
+		$this->session->view = "user_profile";
+		$this->load->view($this->session->view);
+	}
+	public function user_profile_profil(){
+		$this->session->view = "user_profile_profil";
+		$this->load->view($this->session->view);
+	}
+}
+
+/* End of file Profile.php */
+/* Location: ./application/controllers/Profile.php */

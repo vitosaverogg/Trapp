@@ -36,7 +36,6 @@
                 <!-- col 8 -->
                 <div class="col-md-8 col-sm-8 col-xs-12">
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="x_content">
                             <!-- Smart Wizard -->
                             <div id="wizard" class="form_wizard wizard_horizontal">
                                 <ul class="wizard_steps">
@@ -67,7 +66,7 @@
                                 </ul>
                                 <div id="step-transportasi">
                                     <?php 
-                                    $this->load->view('form_wizard/transportasi');
+                                    $this->load->view('form_wizard/transportasi/transportasi');
                                  ?>
                                 </div>
                                 <div id="step-penginapan">
@@ -87,14 +86,13 @@
                                 </div>
                             </div>
                             <!-- End SmartWizard Content -->
-                        </div>
                     </div>
                 </div>
                 <!-- end col -->
                 <div class="col-md-4 col-sm-4 col-xs-12">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2>Detil Order</h2>
+                            <h2>Item Yang Dibeli</h2>
                             <div class="clearfix"></div>
                         </div>
                     </div>

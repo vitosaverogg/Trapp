@@ -14,7 +14,7 @@ class Home extends CI_Controller {
 	{
 		$this->set_navbar_by_login($this->session->login);
 		if($this->session->login==false){
-			$this->load->view('home/home');
+			$this->load->view('home/home_2');
 		}
 		else{
 			

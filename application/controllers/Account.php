@@ -8,7 +8,7 @@ class Account extends CI_Controller {
 		$array = array(
 			'login' => false,
 			'navbar' => '',
-			'view' => 'home'
+			'view' => 'home/home_2'
 		);
 		
 		$this->session->set_userdata( $array );

@@ -59,14 +59,12 @@ $route['sign_up'] = 'account/sign_up';
 $route['sign_in'] = 'account/sign_in';
 $route['auth'] = 'account/auth';
 $route['sign_out'] = 'account/sign_out';
-$route['home2'] = 'account/home2';
 $route['form_wizard'] = "planner";
-$route['home3'] = 'account/home3';
+
 
 $route['transportasi'] = 'planner/transportasi';
 $route['paket'] = 'planner/paket';
-$route['user_profile'] = 'planner/user_profile';
-$route['user_profile_profil'] = 'planner/user_profile_profil';
+
 $route['invoice'] = 'planner/invoice';
 $route['rental'] = 'planner/rental';
 

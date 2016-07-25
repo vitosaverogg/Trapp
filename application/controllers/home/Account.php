@@ -8,7 +8,7 @@ class Account extends CI_Controller {
 		$array = array(
 			'login' => false,
 			'navbar' => '',
-			'view' => 'home/home'
+			'view' => 'home/home_2'
 		);
 		$this->load->model('home/Account_model', '', TRUE);
 		$this->session->set_userdata( $array );
@@ -25,27 +25,6 @@ class Account extends CI_Controller {
 		$this->load->view($this->session->view, FALSE);
 	}
 
-	public function home2(){
-		$array = array(
-			'view' => 'home2'
-		);
-		
-		$this->session->set_userdata( $array );
-
-		$this->set_navbar_by_login($this->session->login);
-		$this->load->view($this->session->view, FALSE);
-	}
-
-	public function home3(){
-		$array = array(
-			'view' => 'home3'
-		);
-		
-		$this->session->set_userdata( $array );
-
-		$this->set_navbar_by_login($this->session->login);
-		$this->load->view($this->session->view, FALSE);
-	}
 	public function sign_up(){
 		$this->session->view = "sign_up";
 		
@@ -74,8 +53,6 @@ class Account extends CI_Controller {
 				}
                 
             }
-
-		
 		$this->session->navbar = "navbar/_navbar_empty";
 		$this->load->view('sign_in', FALSE);
 	}
@@ -98,9 +75,7 @@ class Account extends CI_Controller {
 			$nav = "navbar/_navbar_login";
 		}else{
 			$nav = "navbar/_navbar_not_login";
-		}
-
-		
+		}		
 		$this->session->navbar = $nav;
 	}
 }

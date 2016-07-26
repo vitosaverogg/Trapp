@@ -30,90 +30,98 @@
     <!--End Header-->
     <section class="wrapper">
         <section class="content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="col-md-8 col-sm-8 col-xs-12" style="padding-right: 0">
-                            <div class="x_panel">
-								<div class="col-md-4 col-sm-4 col-xs-12">
-									<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 200px; height: 125px">
-								</div>
-								<div class="col-md-4 col-sm-4 col-xs-12">
-									<h2 style="margin: 0">HONDA CITY</h2>
-									<p>X passengers</p>
-									<p>X bags</p>
-									<p>Include : </p>
-									<ol>
-										<li>Driver</li>
-										<li>Fuel</li>
-									</ol>
-								</div>
-                            </div>
-                        </div>
-						<div class="col-md-4 col-sm-4 col-xs-12" style="padding-left: 0">
-                            <div class="x_panel">
-                                <div class="x_content">
-									<h1 style="margin: 0; text-align: right">Rp. 750.000</h1>
-									<h3 style="margin: 0; text-align: right">per 12 hours</h3>
-									<button class="btn btn-success">Book Now</button>
-                                </div>
-                            </div>
-                        </div>
-						<div class="col-md-8 col-sm-8 col-xs-12" style="padding-right: 0">
-                            <div class="x_panel">
-								<div class="col-md-4 col-sm-4 col-xs-12">
-									<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 200px; height: 125px">
-								</div>
-								<div class="col-md-4 col-sm-4 col-xs-12">
-									<h2 style="margin: 0">HONDA CITY</h2>
-									<p>X passengers</p>
-									<p>X bags</p>
-									<p>Include : </p>
-									<ol>
-										<li>Driver</li>
-										<li>Fuel</li>
-									</ol>
-								</div>
-                            </div>
-                        </div>
-						<div class="col-md-4 col-sm-4 col-xs-12" style="padding-left: 0">
-                            <div class="x_panel">
-                                <div class="x_content">
-									<h1 style="margin: 0; text-align: right">Rp. 750.000</h1>
-									<h3 style="margin: 0; text-align: right">per 12 hours</h3>
-									<button class="btn btn-success">Book Now</button>
-                                </div>
-                            </div>
-                        </div>
-						<div class="col-md-8 col-sm-8 col-xs-12" style="padding-right: 0">
-                            <div class="x_panel">
-								<div class="col-md-4 col-sm-4 col-xs-12">
-									<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 200px; height: 125px">
-								</div>
-								<div class="col-md-4 col-sm-4 col-xs-12">
-									<h2 style="margin: 0">HONDA CITY</h2>
-									<p>X passengers</p>
-									<p>X bags</p>
-									<p>Include : </p>
-									<ol>
-										<li>Driver</li>
-										<li>Fuel</li>
-									</ol>
-								</div>
-                            </div>
-                        </div>
-						<div class="col-md-4 col-sm-4 col-xs-12" style="padding-left: 0">
-                            <div class="x_panel">
-                                <div class="x_content">
-									<h1 style="margin: 0; text-align: right">Rp. 750.000</h1>
-									<h3 style="margin: 0; text-align: right">per 12 hours</h3>
-									<button class="btn btn-success">Book Now</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			<div class="container">
+				<h1>4 Mobil ditemukan</h2>
+				<p>01 Agustus 2016 - 02 Agustus 2016</p>
+				<hr>
+			</div>
+			<div class="container">
+				<div class="col-sm-12" style="min-height: 40px">
+					<div class="col-sm-8" style="min-height: 150px;">
+						<div class="col-sm-12" style="border: 2px solid; border-radius: 5px; padding: 0; margin: 2px;">
+							<div class="col-sm-2" style="padding: 3px;">
+								<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 125px; height: 100px">
+							</div>
+							<div class="col-sm-6">
+								<a style="font-size: 16px;">HONDA CITY</a>
+								<p style="font-size: 12px; margin: 0;">X passengers</p>
+								<p style="font-size: 12px; margin: 0;">X bags</p>
+								<p style="font-size: 12px; margin: 0;">Include : </p>
+								<ol style="font-size: 12px;">
+									<li>Driver</li>
+									<li>Fuel</li>
+								</ol>
+							</div>
+							<div class="col-sm-4" style="border-left: 1px solid; min-height: 125px; padding-top: 10px; padding-left: 10px;">
+										<span style="margin: 0; text-align: right; font-size: 20px">Rp. 750.000</span>
+										<small style="margin: 0; text-align: right">per 12 hours</small>
+										<button class="btn btn-success">Book Now</button>
+							</div>
+						</div>
+						<div class="col-sm-12" style="border: 2px solid; border-radius: 5px; padding: 0; margin: 2px;">
+							<div class="col-sm-2" style="padding: 3px;">
+								<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 125px; height: 100px">
+							</div>
+							<div class="col-sm-6">
+								<a style="font-size: 16px;">HONDA CITY</a>
+								<p style="font-size: 12px; margin: 0;">X passengers</p>
+								<p style="font-size: 12px; margin: 0;">X bags</p>
+								<p style="font-size: 12px; margin: 0;">Include : </p>
+								<ol style="font-size: 12px;">
+									<li>Driver</li>
+									<li>Fuel</li>
+								</ol>
+							</div>
+							<div class="col-sm-4" style="border-left: 1px solid; min-height: 125px; padding-top: 10px; padding-left: 10px;">
+										<span style="margin: 0; text-align: right; font-size: 20px">Rp. 750.000</span>
+										<small style="margin: 0; text-align: right">per 12 hours</small>
+										<button class="btn btn-success">Book Now</button>
+							</div>
+						</div>
+						<div class="col-sm-12" style="border: 2px solid; border-radius: 5px; padding: 0; margin: 2px;">
+							<div class="col-sm-2" style="padding: 3px;">
+								<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 125px; height: 100px">
+							</div>
+							<div class="col-sm-6">
+								<a style="font-size: 16px;">HONDA CITY</a>
+								<p style="font-size: 12px; margin: 0;">X passengers</p>
+								<p style="font-size: 12px; margin: 0;">X bags</p>
+								<p style="font-size: 12px; margin: 0;">Include : </p>
+								<ol style="font-size: 12px;">
+									<li>Driver</li>
+									<li>Fuel</li>
+								</ol>
+							</div>
+							<div class="col-sm-4" style="border-left: 1px solid; min-height: 125px; padding-top: 10px; padding-left: 10px;">
+										<span style="margin: 0; text-align: right; font-size: 20px">Rp. 750.000</span>
+										<small style="margin: 0; text-align: right">per 12 hours</small>
+										<button class="btn btn-success">Book Now</button>
+							</div>
+						</div>
+						<div class="col-sm-12" style="border: 2px solid; border-radius: 5px; padding: 0; margin: 2px;">
+							<div class="col-sm-2" style="padding: 3px;">
+								<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 125px; height: 100px">
+							</div>
+							<div class="col-sm-6">
+								<a style="font-size: 16px;">HONDA CITY</a>
+								<p style="font-size: 12px; margin: 0;">X passengers</p>
+								<p style="font-size: 12px; margin: 0;">X bags</p>
+								<p style="font-size: 12px; margin: 0;">Include : </p>
+								<ol style="font-size: 12px;">
+									<li>Driver</li>
+									<li>Fuel</li>
+								</ol>
+							</div>
+							<div class="col-sm-4" style="border-left: 1px solid; min-height: 125px; padding-top: 10px; padding-left: 10px;">
+										<span style="margin: 0; text-align: right; font-size: 20px">Rp. 750.000</span>
+										<small style="margin: 0; text-align: right">per 12 hours</small>
+										<button class="btn btn-success">Book Now</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4" style="min-height: 50px"></div>
+				</div>
+			</div>
         </section>
     </section>
     

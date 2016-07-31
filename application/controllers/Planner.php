@@ -22,15 +22,6 @@ class Planner extends CI_Controller {
 		$this->session->view = "paket";
 		$this->load->view($this->session->view);
 	}
-
-	public function user_profile(){
-		$this->session->view = "user_profile";
-		$this->load->view($this->session->view);
-	}
-	public function user_profile_profil(){
-		$this->session->view = "user_profile_profil";
-		$this->load->view($this->session->view);
-	}
 	
 	public function invoice(){
 		$this->session->view = "invoice";
@@ -39,6 +30,11 @@ class Planner extends CI_Controller {
 	
 	public function rental(){
 		$this->session->view = "rental";
+		$this->load->view($this->session->view);
+	}
+	
+	public function userprofil(){
+		$this->session->view = "userprofil";
 		$this->load->view($this->session->view);
 	}
 }

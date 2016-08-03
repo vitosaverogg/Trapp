@@ -1,4 +1,5 @@
 <!-- col -->
+<body>
 <div class="col-md-12 col-sm-12 col-xs-12">
     <!-- x_panel -->
     <div class="x_panel">
@@ -9,55 +10,55 @@
 				<!-- tab content -->
                 <div id="myTabContent" class="tab-content">
                     <div role="tabpanel" class="tab-pane fade active in" id="pesawat" aria-labelledby="home-tab">
-                        <!-- waktu penerbangan -->
+                        <!-- destinasi -->
                         <div class="col-md-12 col-sm-12 col-xs-12">
                             <div class="col-md-4 col-sm-4 col-xs-4">
                                 <img src="<?php echo base_url(); ?>assets/images/paris.jpg" class="img-responsive" alt="125x125">
-                                <h2>Paris (Eiffel Tower) - Europe</h2>
-                                <h5>A town which has Eiffel Tower as an icon of Paris. It has many spot for photograpy.The Eiffel Tower is a wrought iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. </h5>
-                                <div class="btn-group" role="group" style="float: right; margin-right: 5px;">                                
+                                <h2><strong>Paris (Eiffel Tower)</strong></h2>
+                                <h2>Europe</h2>                                
+                                <div class="btn-group" role="group" style="float: right; margin-right: 5px;">                        
                                 <button class="btn btn-default" data-toggle="modal" data-target="#paris">Read More</button>
                                 <button class="btn btn-success">Choose</button>
-                            </div>
+                                </div>
                             </div>
                             <div class="col-md-4 col-sm-4 col-xs-4">
                                 <img src="<?php echo base_url(); ?>assets/images/destinasi/universal.jpg" class="img-responsive" alt="125x125">
-                                <h2>Universal Studio - Singapore</h2>
-                                <h5>Universal Studios Singapore is 20 hectares (49 acres) in size, occupying the easternmost part of the 49-hectare (120-acre) Resorts World Sentosa. There are a total of 24 attractions, of which 18 are original or specially adapted for the park. The park consists of seven themed zones which surround a lagoon.</h5>
+                                <h2><strong>Universal Studio</strong></h2>
+                                <h2>Singapore</h2>                                
                                 <button class="btn btn-default" data-toggle="modal" data-target="#universal">Read More</button>
                                 <button class="btn btn-success">Choose</button>
                             </div>
                             <div class="col-md-4 col-sm-4 col-xs-4">
                                 <img src="<?php echo base_url(); ?>assets/images/destinasi/bali.jpg" class="img-responsive" alt="125x125">
-                                <h2>Bali - Indonesia</h2>
-                                <h5>Bali is an Indonesian island known for its forested volcanic mountains, iconic rice paddies, beaches and coral reefs. The island is home to religious sites such as cliffside Uluwatu Temple. To the south, the beachside city of Kuta has lively bars, while Seminyak, Sanur and Nusa Dua are popular resort towns. The island is also known for its yoga and meditation retreats</h5>
+                                <h2><strong>Bali</strong></h2>
+                                <h2>Indonesia</h2>                                
                                 <button class="btn btn-default" data-toggle="modal" data-target="#bali">Read More</button>
                                 <button class="btn btn-success">Choose</button>
                             </div>
                             <br></br>
                             <div class="col-md-4 col-sm-4 col-xs-4">
                                 <img src="<?php echo base_url(); ?>assets/images/destinasi/borobudur.jpg" class="img-responsive" alt="125x125">
-                                <h2>Candi Borobudur - Indonesia</h2>
-                                <h5>Borobudur, or Barabudur, is a 9th-century Mahayana Buddhist Temple in Magelang, Central Java, Indonesia. The monument consists of nine stacked platforms, six square and three circular, topped by a central dome.</h5>
+                                <h2><strong>Candi Borobudur</strong></h2>
+                                <h2>Indonesia</h2>
                                 <button class="btn btn-default" data-toggle="modal" data-target="#borobudur">Read More</button>
                                 <button class="btn btn-success">Choose</button>
                             </div>
                             <div class="col-md-4 col-sm-4 col-xs-4">
                                 <img src="<?php echo base_url(); ?>assets/images/destinasi/disneyland.jpg" class="img-responsive" alt="125x125">
-                                <h2>Disneyland - Hongkong</h2>
-                                <h5>Hong Kong Disneyland is a theme park located on reclaimed land in Penny's Bay, Lantau Island. It is the first theme park located inside the Hong Kong Disneyland Resort and is owned and managed by the Hong Kong International Theme Parks.</h5>
+                                <h2><strong>Disneyland</strong></h2>
+                                <h2>Hongkong</h2>
                                 <button class="btn btn-default" data-toggle="modal" data-target="#disneyland">Read More</button>
                                 <button class="btn btn-success">Choose</button>
                             </div>
                             <div class="col-md-4 col-sm-4 col-xs-4">
                                 <img src="<?php echo base_url(); ?>assets/images/destinasi/greatwall.jpg" class="img-responsive" alt="125x125">
-                                <h2>Great Wall - China</h2>
-                                <h5>The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe.</h5>
+                                <h2><strong>Great Wall</strong></h2>
+                                <h2>China</h2>
                                 <button class="btn btn-default" data-toggle="modal" data-target="#greatwall">Read More</button>
                                 <button class="btn btn-success">Choose</button>
                             </div>
                         </div>
-                        <!-- end waktu penerbangan -->
+                        <!-- end destinasi -->
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -237,4 +238,5 @@
                     </div>
                 </div><!-- /.modal-content -->
             </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
+        </div><!-- /.modal-->
+</body>        

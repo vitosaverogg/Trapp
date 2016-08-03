@@ -9,7 +9,7 @@
 	 <form method="post" action=<?php echo "'".base_url().'/home/Account/sign_in'."'";?>>
       <li>E-mail<input type="email" name="email_login" /></li>
       <li>Password<input type="password" name="password_login" /></li>
-	  <li><input type="submit" value="Submit"></li>
+	  <li><input type="submit" value="Submit" href="application/views/userprofil"></li>
 	 </form>
     </ul>
 	</div>

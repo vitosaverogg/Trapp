@@ -21,20 +21,20 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<!-- <body background="<?php echo base_url(); ?>assets/images/border.png"> -->
+<body background="<?php echo base_url(); ?>assets/images/border.png" opacity= "0.3"style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
     <div class = "container-fluid">
         <div class="row">
-            <div class="col-sm-3" style="background-color:yellow;">
+            <div class="col-sm-3" style="background-color:blue;">
             </div>
             <div class="col-sm-6">
                  <div style="text-align:center;"><img src="<?php echo base_url(); ?>assets/images/logo/plane.jpg" width="80" height="60"></div>
 
-                 <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard" style="background-color:cyan;">
+                 <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard" style="background-color:lightblue;">
                             <h1><span class="log-in">your</span> TRIP <span class="sign-up">plan</span></h1>
-                            <p  style="text-align:center;">Aplikasi ini dapat membantu liburan anda makin seru !</p>
+                            <!-- <p  style="text-align:center;">Aplikasi ini dapat membantu liburan anda makin seru !</p> -->
                             <!-- asal -->
                             <div class="form-group">
-                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Asal</label>
+                                <h5 class="control-label col-md-3 col-sm-3 col-xs-12">Asal</h5>
                                 <div class="col-md-9 col-sm-9 col-xs-12">
                                     <input type="text" name="country" id="asal" />
                                     <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
@@ -43,7 +43,7 @@
                             <!-- end asal -->
                             <!-- tujuan -->
                             <div class="form-group">
-                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</label>
+                                <h5 class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</h5>
                                 <div class="col-md-9 col-sm-9 col-xs-12">
                                     <input type="text" name="country" id="tujuan" />
                                     <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
@@ -52,7 +52,7 @@
                             <!-- end tujuan -->
                             <!-- tanggal -->
                             <div class="form-group">
-                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</label>
+                                <h5 class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</h5>
                                 <div class="col-md-9 col-sm-9 col-xs-12">
                                     <input style="padding-left: 40px;" type="text" class="form-control has-feedback-left" id="single_cal4" placeholder="DD/MM/YYYY" aria-describedby="inputSuccess2Status4">
                                     <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
@@ -93,9 +93,6 @@
             </div>
          </div>
     </div>    
-    <?php 
-    $this->load->view('_footer');
-    ?>
     <!-- jQuery -->
     <script src="<?php echo base_url(); ?>assets/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->

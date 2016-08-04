@@ -68,4 +68,5 @@ $route['paket'] = 'planner/paket';
 $route['invoice'] = 'planner/invoice';
 $route['rental'] = 'planner/rental';
 $route['userprofil'] = 'planner/userprofil';
+$route['history'] = 'planner/history';
 

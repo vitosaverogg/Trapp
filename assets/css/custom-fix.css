@@ -5628,3 +5628,18 @@ ul.notifications {
   border: 1px solid #e5e5e5;
 }
 /** /Dropzone.js **/
+
+/** halaman paket **/
+.x_panel, .well:hover{
+	-ms-transform: scale(1.06,1.06); /* IE 9 */
+    -webkit-transform: scale(1.06,1.06); /* Safari */
+    transform: scale(1.06,1.06); /* Standard syntax */
+	cursor:pointer;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#img_jumbo{
+	height: 500px;
+	width:100%;
+}

@@ -14,6 +14,8 @@
     <?php 
         $this->load->view('_css');
      ?>
+	<link rel="stylesheet" href="paket/_css.css">
+	<script src="paket/paketclick.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,114 +27,17 @@
 <body>
     <!--Start Header-->
     <?php 
-   $this->load->view('_header', FALSE);
+	$_SESSION['navbar']='navbar/_navbar_not_login';
+	$this->load->view('_header', FALSE);
     ?>
     <!--End Header-->
     <section class="wrapper">
         <section class="content">
             <div class="container">
                 <div class="row">
+					<?php $this->load->view('paket/featured_package'); ?>
                     <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="col-md-3 col-sm-3 col-xs-12">
-                            <div class="x_panel">
-								<div class="x_content">
-									<img src="<?php echo base_url(); ?>assets/images/paket/kawahputih.jpg" style="width: 100%; height: 100%">
-								</div>
-                                <div class="x_title">
-                                    <h2>Paket 1</h2>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="x_content">
-                                    <h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-                                    <div style="text-align: center; width: 100%;">
-                                        <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Detail</button>
-										<button class="buttonPrevious btn btn-add">Bayar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12">
-                            <div class="x_panel">
-								<div class="x_content">
-									<img src="<?php echo base_url(); ?>assets/images/paket/tangkubanperahu.jpg" style="width: 100%; height: 139.097px">
-								</div>
-                                <div class="x_title">
-                                    <h2>Paket 2</h2>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="x_content">
-                                    <h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-                                    <div style="text-align: center; width: 100%;">
-                                        <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Detail</button>
-										<button class="buttonPrevious btn btn-add">Bayar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12">
-                            <div class="x_panel">
-								<div class="x_content">
-									<img src="<?php echo base_url(); ?>assets/images/paket/gedungsate.jpg" style="width: 100%; height: 139.097px">
-								</div>
-                                <div class="x_title">
-                                    <h2>Paket 3</h2>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="x_content">
-                                    <h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-                                    <div style="text-align: center; width: 100%;">
-                                        <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Detail</button>
-										<button class="buttonPrevious btn btn-add">Bayar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-3 col-xs-12">
-                            <div class="x_panel">
-								<div class="x_content">
-									<img src="<?php echo base_url(); ?>assets/images/paket/ciater.jpg" style="width: 100%; height: 139.097px">
-								</div>
-                                <div class="x_title">
-                                    <h2>Paket 4</h2>
-                                    <div class="clearfix"></div>
-                                </div>
-                                <div class="x_content">
-                                    <h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-                                    <div style="text-align: center; width: 100%;">
-                                        <button class="buttonPrevious btn btn-add" data-toggle="modal" data-target="#myModal">Detail</button>
-										<button class="buttonPrevious btn btn-add">Bayar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <?php $this->load->view('paket/pakets'); ?>
                     </div>
                 </div>
             </div>
@@ -190,7 +95,7 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra leo lacinia luctus rutrum. Morbi id placerat leo. Maecenas eu sem erat. Integer imperdiet viverra purus vitae eleifend. Duis laoreet ultricies mauris elementum ultrices. Ut vel elit sodales turpis rutrum vehicula tristique in velit. Quisque et dolor nibh. Cras scelerisque tortor ac urna venenatis, ac feugiat sem ornare. Vestibulum ullamcorper at est at dictum. Pellentesque nec elementum velit. Nullam et lacus congue tellus aliquam pretium a eu felis. Suspendisse potenti. Integer pretium urna lorem, elementum pretium felis dapibus ut. Duis et metus sit amet metus convallis laoreet. Morbi volutpat nisl ac sagittis rutrum. 
+                       dolor sit amet, consectetur adipiscing elit. Praesent viverra leo lacinia luctus rutrum. Morbi id placerat leo. Maecenas eu sem erat. Integer imperdiet viverra purus vitae eleifend. Duis laoreet ultricies mauris elementum ultrices. Ut vel elit sodales turpis rutrum vehicula tristique in velit. Quisque et dolor nibh. Cras scelerisque tortor ac urna venenatis, ac feugiat sem ornare. Vestibulum ullamcorper at est at dictum. Pellentesque nec elementum velit. Nullam et lacus congue tellus aliquam pretium a eu felis. Suspendisse potenti. Integer pretium urna lorem, elementum pretium felis dapibus ut. Duis et metus sit amet metus convallis laoreet. Morbi volutpat nisl ac sagittis rutrum. 
                     </p>
                 </div>
                 <div class="modal-footer">

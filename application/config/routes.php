@@ -63,7 +63,7 @@ $route['form_wizard'] = "planner";
 
 
 $route['transportasi'] = 'planner/transportasi';
-$route['paket'] = 'planner/paket';
+$route['paket'] = 'paket';
 
 $route['invoice'] = 'planner/invoice';
 $route['rental'] = 'planner/rental';

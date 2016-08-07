@@ -14,9 +14,7 @@
     <?php 
     $this->load->view('_css');
     ?>
-    <?php 
-    $this->load->view('_header');
-    ?>
+   
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,20 +22,16 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body background="<?php echo base_url(); ?>assets/images/border.png" opacity= "0.3"style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
+<body background="<?php echo base_url(); ?>assets/images/wallpapers-minimalistic-fog-sandbox-simple-backgrounds-abstract-wallpaper-retro.jpg" opacity= "0.3"style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
     <div class = "container-fluid">
         <div class="row">
-            <div class="col-sm-3" style="background-color:blue;">
-            </div>
+            <!-- <div class="col-sm-3" style="background-color:blue;">
+            </div> -->
             <div class="col-sm-6">
-                 <div style="text-align:center;"><img src="<?php echo base_url(); ?>assets/images/logo/plane.jpg" width="80" height="60"></div>
-
-                 <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard" style="background-color:lightblue;">
+                 <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard" style="background-color:">
                             <h1><span class="log-in">your</span> TRIP <span class="sign-up">plan</span></h1>
-                            <!-- <p  style="text-align:center;">Aplikasi ini dapat membantu liburan anda makin seru !</p> -->
-                            <!-- asal -->
                             <div class="form-group">
-                                <h5 class="control-label col-md-3 col-sm-3 col-xs-12">Asal</h5>
+                                <label class="label col-md-3 col-sm-3 col-xs-12">Asal</label>
                                 <div class="col-md-9 col-sm-9 col-xs-12">
                                     <input type="text" name="country" id="asal" />
                                     <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
@@ -46,7 +40,7 @@
                             <!-- end asal -->
                             <!-- tujuan -->
                             <div class="form-group">
-                                <h5 class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</h5>
+                                <label class="label col-md-3 col-sm-3 col-xs-12">Tujuan</label>
                                 <div class="col-md-9 col-sm-9 col-xs-12">
                                     <input type="text" name="country" id="tujuan" />
                                     <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
@@ -55,7 +49,7 @@
                             <!-- end tujuan -->
                             <!-- tanggal -->
                             <div class="form-group">
-                                <h5 class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</h5>
+                                <label class="label col-md-3 col-sm-3 col-xs-12">Tanggal</label>
                                 <div class="col-md-9 col-sm-9 col-xs-12">
                                     <input style="padding-left: 40px;" type="text" class="form-control has-feedback-left" id="single_cal4" placeholder="DD/MM/YYYY" aria-describedby="inputSuccess2Status4">
                                     <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
@@ -65,13 +59,13 @@
                             <!-- end tanggal -->
                             <!-- budget -->
                             <div class="form-group">
-                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Budget</label>
+                                <label class="label col-md-3 col-sm-3 col-xs-12">Budget</label>
                                 <div class="col-md-9 col-sm-9 col-xs-12">
                                     <input type="number" name="money" id="autocomplete-custom-append" placeholder="ex Rp 50.000" class="form-control col-md-10" style="float: left;" />
                                 </div>
                             </div>
                             <div class="form-group">
-                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Pilihan</label>
+                                <label class="label col-md-3 col-sm-3 col-xs-12">Pilihan</label>
                                 <div class="col-md-4 col-sm-4 col-xs-12">
                                     <label>
                                         <input type="radio" checked="" value="option1 " id="optionsRadios1 " name="optionsRadios "> Custom
@@ -92,8 +86,8 @@
                             <!-- end tombol -->
                         </form>​​
             </div>
-            <div class="col-sm-3" style="background-color:red;">
-            </div>
+            <!-- <div class="col-sm-3" style="background-color:red;">
+            </div> -->
          </div>
     </div>    
     <!-- jQuery -->

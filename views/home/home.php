@@ -12,11 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!-- css file -->
     <?php 
-    $this->load->view('_css');
-    ?>
-    <?php 
-    $this->load->view('_header');
-    ?>
+        $this->load->view('_css');
+     ?>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,20 +21,42 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body background="<?php echo base_url(); ?>assets/images/border.png" opacity= "0.3"style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
-    <div class = "container-fluid">
-        <div class="row">
-            <div class="col-sm-3" style="background-color:blue;">
-            </div>
-            <div class="col-sm-6">
-                 <div style="text-align:center;"><img src="<?php echo base_url(); ?>assets/images/logo/plane.jpg" width="80" height="60"></div>
 
-                 <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard" style="background-color:lightblue;">
+<body background="<?php echo base_url(); ?>assets/images/border.png">
+    <!--Start Header-->
+    <?php 
+        $this->load->view('_header', FALSE);
+     ?>
+    <!--End Header-->
+    <!--start wrapper-->
+    <section class="wrapper">
+        <section class="content right_sidebar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+                        <div class="blog_large">
+                            <figure class="post_img">
+                                <div id="slider" class="swipe">
+                                    <ul class="swipe-wrap">
+                                        <li><img src="<?php echo base_url(); ?>assets/images/11.jpg" alt="blog post"></li><!--Ganti dengan php ambil gambar dari database, berhubungan dengan backend-->
+                                        <li><img src="<?php echo base_url(); ?>assets/images/12.jpg" alt="blog post"></li><!--Ganti dengan php ambil gambar dari database, berhubungan dengan backend-->
+                                        <li><img src="<?php echo base_url(); ?>assets/images/13.jpg" alt="blog post"></li><!--Ganti dengan php ambil gambar dari database, berhubungan dengan backend-->
+                                    </ul>
+                                    <div class="swipe-navi">
+                                        <div class="swipe-left" onclick="mySwipe.prev()"><i class="fa fa-chevron-left"></i></div>
+                                        <div class="swipe-right" onclick="mySwipe.next()"><i class="fa fa-chevron-right"></i></div>
+                                    </div>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                    <!--your trip planner-->
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <form class="form-2" method="post" action="<?php echo base_url(); ?>form_wizard">
                             <h1><span class="log-in">your</span> TRIP <span class="sign-up">plan</span></h1>
-                            <!-- <p  style="text-align:center;">Aplikasi ini dapat membantu liburan anda makin seru !</p> -->
                             <!-- asal -->
                             <div class="form-group">
-                                <h5 class="control-label col-md-3 col-sm-3 col-xs-12">Asal</h5>
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Asal</label>
                                 <div class="col-md-9 col-sm-9 col-xs-12">
                                     <input type="text" name="country" id="asal" />
                                     <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
@@ -46,7 +65,7 @@
                             <!-- end asal -->
                             <!-- tujuan -->
                             <div class="form-group">
-                                <h5 class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</h5>
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Tujuan</label>
                                 <div class="col-md-9 col-sm-9 col-xs-12">
                                     <input type="text" name="country" id="tujuan" />
                                     <!-- <input type="text" name="country" id="autocomplete-ajax-x" disabled="disabled"/> -->
@@ -55,7 +74,7 @@
                             <!-- end tujuan -->
                             <!-- tanggal -->
                             <div class="form-group">
-                                <h5 class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</h5>
+                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Tanggal</label>
                                 <div class="col-md-9 col-sm-9 col-xs-12">
                                     <input style="padding-left: 40px;" type="text" class="form-control has-feedback-left" id="single_cal4" placeholder="DD/MM/YYYY" aria-describedby="inputSuccess2Status4">
                                     <span class="fa fa-calendar-o form-control-feedback left" aria-hidden="true"></span>
@@ -87,15 +106,23 @@
                             <!-- tombol -->
                             <div class="text-center">
                                 <button type="submit" class="log-twitter">Submit</button>
-                                <!-- <input type="submit" value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'"> -->
+                                <hr>
+                                <input type="submit" value="Beli Tiket" onclick="window.location = '<?php echo base_url(); ?>transportasi'">
                             </div>
                             <!-- end tombol -->
                         </form>​​
+                    </div>
+                    <!-- end your trip planner -->
+                </div>
+                <!--/.row-->
             </div>
-            <div class="col-sm-3" style="background-color:red;">
-            </div>
-         </div>
-    </div>    
+            <!--/.container-->
+        </section>
+    </section>
+    <!--end wrapper-->
+    <?php 
+        $this->load->view('_footer');
+     ?>
     <!-- jQuery -->
     <script src="<?php echo base_url(); ?>assets/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
@@ -107,8 +134,9 @@
     <script src="<?php echo base_url(); ?>assets/js/main.js"></script>
     <!---->
     <?php 
-    $this->load->view('scripts/date_picker');
-    $this->load->view('scripts/auto_completed');
-    ?>
+        $this->load->view('scripts/date_picker');
+        $this->load->view('scripts/auto_completed');
+     ?>
 </body>
+
 </html>

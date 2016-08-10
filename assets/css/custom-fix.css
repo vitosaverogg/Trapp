@@ -526,14 +526,17 @@
 ====================================================================*/
 
 .form-2 {
-    /*margin-top: 100px;
-    margin-left: 400px;
-    padding-left: 20px;
-    padding-right: 20px;  */
-    background: #27ae60;
+    /* Size and position */
+    /*width: 340px;*/
+    margin: 15px auto 30px;
+    padding: 15px;
+    position: relative;
+    /*float: right;*/
+    /* Styles */
+    background: #ffffff;
     border-radius: 4px;
-    text-align: center;
-    
+    color: #7e7975;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2), 0 1px 5px rgba(0, 0, 0, 0.2), 0 0 0 12px rgba(255, 255, 255, 0.4);
 }
 
 .form-2 h1 {
@@ -583,10 +586,9 @@
     padding: 7px 0 5px 2px;
     cursor: pointer;
     text-transform: uppercase;
-    color : white;
     font-weight: 400;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .form-2 label i {

@@ -60,7 +60,7 @@
 						</div>
 						<div class="col-sm-12" style="border: 2px solid; border-radius: 5px; padding: 0; margin: 2px;">
 							<div class="col-sm-2" style="padding: 3px;">
-								<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 125px; height: 100px">
+								<img src="<?php echo base_url(); ?>assets/images/rental/hondacivic.jpg" style="width: 125px; height: 100px">
 							</div>
 							<div class="col-sm-6">
 								<a style="font-size: 16px;">HONDA CITY</a>
@@ -80,7 +80,7 @@
 						</div>
 						<div class="col-sm-12" style="border: 2px solid; border-radius: 5px; padding: 0; margin: 2px;">
 							<div class="col-sm-2" style="padding: 3px;">
-								<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 125px; height: 100px">
+								<img src="<?php echo base_url(); ?>assets/images/rental/hondacrv.jpg" style="width: 125px; height: 100px">
 							</div>
 							<div class="col-sm-6">
 								<a style="font-size: 16px;">HONDA CITY</a>
@@ -100,7 +100,7 @@
 						</div>
 						<div class="col-sm-12" style="border: 2px solid; border-radius: 5px; padding: 0; margin: 2px;">
 							<div class="col-sm-2" style="padding: 3px;">
-								<img src="<?php echo base_url(); ?>assets/images/rental/hondacity.jpg" style="width: 125px; height: 100px">
+								<img src="<?php echo base_url(); ?>assets/images/rental/hondabrio.jpg" style="width: 125px; height: 100px">
 							</div>
 							<div class="col-sm-6">
 								<a style="font-size: 16px;">HONDA CITY</a>

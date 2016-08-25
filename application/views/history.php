@@ -1975,147 +1975,156 @@ Main components
    $this->load->view('_header', FALSE);
     ?>
     <!--End Header-->
+    <section class="wrapper">
+        <section class="content">
+            <div class="container">
+                <h1>4 Mobil ditemukan</h2>
+                <p>01 Agustus 2016 - 02 Agustus 2016</p>
+                <hr>
+            </div>
+        <section id="cd-timeline" class="cd-container">
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-movie">
+                    <img src="img/cd-icon-movie.svg" alt="Movie">
+                </div> <!-- cd-timeline-img -->
 
-	<section id="cd-timeline" class="cd-container">
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
+                <div class="cd-timeline-content">
+                    <h2>Paket 1</h2>
+                    <h3>Pesawat</h3>
+                                        <p>Lion Air</p>
+                                        <p>Bandung - Jakarta</p>
+                                        <h3>Hotel</h3>
+                                        <p>Ibis Hotel</p>
+                                        <h3>Event</h3>
+                                        <p>Java Jazz</p>
+                                        <h2>Rp. 5.500.000</h2>
+                    <button class="btn btn-default" data-toggle="modal" data-target="#changepass">Read More</button>
+                    <span class="cd-date">Jan 18</span>
+                </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
 
-			<div class="cd-timeline-content">
-				<h2>Paket 1</h2>
-				<h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 18</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-movie">
+                    <img src="img/cd-icon-movie.svg" alt="Movie">
+                </div> <!-- cd-timeline-img -->
 
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
+                <div class="cd-timeline-content">
+                    <h2>Paket 1</h2>
+                    <h3>Pesawat</h3>
+                                        <p>Lion Air</p>
+                                        <p>Bandung - Jakarta</p>
+                                        <h3>Hotel</h3>
+                                        <p>Ibis Hotel</p>
+                                        <h3>Event</h3>
+                                        <p>Java Jazz</p>
+                                        <h2>Rp. 5.500.000</h2>
+                    <a href="#0" class="cd-read-more">Read more</a>
+                    <span class="cd-date">Jan 18</span>
+                </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
 
-			<div class="cd-timeline-content">
-				<h2>Paket 1</h2>
-				<h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 18</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-		
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-movie">
+                    <img src="img/cd-icon-movie.svg" alt="Movie">
+                </div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>Paket 1</h2>
-				<h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 18</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-		
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
+                <div class="cd-timeline-content">
+                    <h2>Paket 1</h2>
+                    <h3>Pesawat</h3>
+                                        <p>Lion Air</p>
+                                        <p>Bandung - Jakarta</p>
+                                        <h3>Hotel</h3>
+                                        <p>Ibis Hotel</p>
+                                        <h3>Event</h3>
+                                        <p>Java Jazz</p>
+                                        <h2>Rp. 5.500.000</h2>
+                    <a href="#0" class="cd-read-more">Read more</a>
+                    <span class="cd-date">Jan 18</span>
+                </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
 
-			<div class="cd-timeline-content">
-				<h2>Paket 1</h2>
-				<h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 18</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-		
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-movie">
+                    <img src="img/cd-icon-movie.svg" alt="Movie">
+                </div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>Paket 1</h2>
-				<h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 18</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-		
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
+                <div class="cd-timeline-content">
+                    <h2>Paket 1</h2>
+                    <h3>Pesawat</h3>
+                                        <p>Lion Air</p>
+                                        <p>Bandung - Jakarta</p>
+                                        <h3>Hotel</h3>
+                                        <p>Ibis Hotel</p>
+                                        <h3>Event</h3>
+                                        <p>Java Jazz</p>
+                                        <h2>Rp. 5.500.000</h2>
+                    <a href="#0" class="cd-read-more">Read more</a>
+                    <span class="cd-date">Jan 18</span>
+                </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
 
-			<div class="cd-timeline-content">
-				<h2>Paket 1</h2>
-				<h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 18</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
-		
-		<div class="cd-timeline-block">
-			<div class="cd-timeline-img cd-movie">
-				<img src="img/cd-icon-movie.svg" alt="Movie">
-			</div> <!-- cd-timeline-img -->
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-movie">
+                    <img src="img/cd-icon-movie.svg" alt="Movie">
+                </div> <!-- cd-timeline-img -->
 
-			<div class="cd-timeline-content">
-				<h2>Paket 1</h2>
-				<h3>Pesawat</h3>
-                                    <p>Lion Air</p>
-                                    <p>Bandung - Jakarta</p>
-                                    <h3>Hotel</h3>
-                                    <p>Ibis Hotel</p>
-                                    <h3>Event</h3>
-                                    <p>Java Jazz</p>
-                                    <h2>Rp. 5.500.000</h2>
-				<a href="#0" class="cd-read-more">Read more</a>
-				<span class="cd-date">Jan 18</span>
-			</div> <!-- cd-timeline-content -->
-		</div> <!-- cd-timeline-block -->
+                <div class="cd-timeline-content">
+                    <h2>Paket 1</h2>
+                    <h3>Pesawat</h3>
+                                        <p>Lion Air</p>
+                                        <p>Bandung - Jakarta</p>
+                                        <h3>Hotel</h3>
+                                        <p>Ibis Hotel</p>
+                                        <h3>Event</h3>
+                                        <p>Java Jazz</p>
+                                        <h2>Rp. 5.500.000</h2>
+                    <a href="#0" class="cd-read-more">Read more</a>
+                    <span class="cd-date">Jan 18</span>
+                </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-movie">
+                    <img src="img/cd-icon-movie.svg" alt="Movie">
+                </div> <!-- cd-timeline-img -->
+
+                <div class="cd-timeline-content">
+                    <h2>Paket 1</h2>
+                    <h3>Pesawat</h3>
+                                        <p>Lion Air</p>
+                                        <p>Bandung - Jakarta</p>
+                                        <h3>Hotel</h3>
+                                        <p>Ibis Hotel</p>
+                                        <h3>Event</h3>
+                                        <p>Java Jazz</p>
+                                        <h2>Rp. 5.500.000</h2>
+                    <a href="#0" class="cd-read-more">Read more</a>
+                    <span class="cd-date">Jan 18</span>
+                </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+
+            <div class="cd-timeline-block">
+                <div class="cd-timeline-img cd-movie">
+                    <img src="img/cd-icon-movie.svg" alt="Movie">
+                </div> <!-- cd-timeline-img -->
+
+                <div class="cd-timeline-content">
+                    <h2>Paket 1</h2>
+                    <h3>Pesawat</h3>
+                                        <p>Lion Air</p>
+                                        <p>Bandung - Jakarta</p>
+                                        <h3>Hotel</h3>
+                                        <p>Ibis Hotel</p>
+                                        <h3>Event</h3>
+                                        <p>Java Jazz</p>
+                                        <h2>Rp. 5.500.000</h2>
+                    <a href="#0" class="cd-read-more">Read more</a>
+                    <span class="cd-date">Jan 18</span>
+                </div> <!-- cd-timeline-content -->
+            </div> <!-- cd-timeline-block -->
+            </section>
+        </section>
+    </section>
 	
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script>
@@ -2164,5 +2173,63 @@ Main components
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/jquery.autocomplete.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/countries.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/autocompleted/demo.js"></script>
+    
+    <!--- Modal --->
+    
+    <div class="modal fade" tabindex="-1" role="dialog" id="changepass">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Detail Paket</h4>
+                </div>
+
+                <div class="modal-body">
+                    <div class="container">
+                        <label class="control-label col-sm-12" style="padding: 7px 7px 7px 10px">Old Password</label>
+                        <div class="x_content">
+                            <table style="width: 100%">
+                                <tr style="background: #f1f1f1">
+                                    <td>Pesawat</td>
+                                    <td>
+                                        <p>Lion Air</p>
+                                        <p>Bandung - Jakarta</P>
+                                        <p>29-02-2017</p>
+                                        <p>Check in : 07.00</p>
+                                        <p>07.30 - 08.15</P>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Hotel</td>
+                                    <td>
+                                        <p>Ibis Hotel</p>
+                                        <p>29-02-2017</p>
+                                        <p>Check in : 10.00</p>
+                                        <p>Selama 1 malam</p>
+                                    </td>
+                                </tr>
+                                <tr  style="background: #f1f1f1">
+                                    <td>Event</td>
+                                    <td>
+                                        <p>Java Jazz</p>
+                                        <p>29-02-2017</p>
+                                        <p>Open Gate : 19.00</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <label class="control-label col-sm-6" style="padding: 7px 7px 7px 10px">Old Password</label>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    
+    <!--- End of Modal --->
 </body>
 </html>
